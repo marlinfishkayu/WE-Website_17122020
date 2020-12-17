@@ -29,7 +29,6 @@
         
         });
       // swicth language for css，re-define language
-      console.log(lang);
       var html = document.documentElement;
       html.setAttribute('lang', 'en');
       html.removeAttribute('lang');

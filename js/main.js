@@ -504,15 +504,7 @@ $('#studioCarousel').owlCarousel({
   }
 });
 
-/*-- WhatsNews Carousel no-drag start--*/
-// (function () {
-// 	$(".WhatsNews_Carousel").on('click', function() {
-// 		$(this).removeClass("owl-grab");
-// 	})
-// })();
 
-
-/*-- WhatsNews Carousel no-drag end--*/
  
 $('#news-area').owlCarousel({
 	loop: false,
@@ -530,7 +522,7 @@ $('#news-area').owlCarousel({
             items:1
         }
     }
-})
+});
 
 /*--  show less button --*/
 
