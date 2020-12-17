@@ -1,0 +1,50 @@
+body:lang(TC),
+body:lang(SC)
+{
+    @media (min-width: 768px){
+        #AboutWE .about-main .about-h2{
+            margin-top: -9px;
+        }
+        #AboutWE .about-brandStory .about-p{
+            padding-top: 8rem;
+        }
+        #AboutWE .about-brandStory .line-deco-vertical {
+            bottom: -28%;
+        }
+        #AboutWE .about-cert,
+        #AboutWE .about-brandStory {
+            margin-top: 5rem;
+        }
+        #AboutWE .about-slogan{
+            margin-top: 15rem;
+        }
+        #AboutWE .about-cert{
+            margin-top: 17rem;
+        }
+        #AboutWE .about-mission .line-deco-vertical {
+            top: -51%;
+        }
+    }
+    @media (min-width: 992px){
+        #AboutWE .about-brandStory .about-h2 {
+            padding-top: 35px;
+            margin-top: 0;
+        }
+        #AboutWE .about-brandStory .about-p{
+            padding-top: 1rem;
+        }
+        #AboutWE .about-brandStory .line-deco-vertical {
+            bottom: -3%;
+        }
+        #AboutWE .about-mission .line-deco-vertical {
+            top: -74%;
+        }
+        #AboutWE .about-mission .about-h4 {
+            margin-top: 4rem;
+        }
+    }
+    @media (min-width: 1200px){
+
+    }
+    
+}

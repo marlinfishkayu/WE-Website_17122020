@@ -1,0 +1,51 @@
+body:lang(TC),
+body:lang(SC)
+{
+    .deco-content{
+        font-weight: 100;
+    } 
+    .break_Chi{
+        display: block;
+    }  
+    .hero-title {
+        font-weight: 400;
+    }  
+    .service-title {
+        font-weight: 500;  
+    }
+    .game-icon-container h4{
+        font-weight: 500;
+    }
+    @media (min-width: 768px){
+
+    }
+    @media (min-width: 992px){
+        #newsFeed .frame-detail h6 {
+            font-weight: 800;
+        }
+    }
+    @media (min-width: 1200px){
+    }
+    
+}
+
+body:lang(TC)
+{
+    h1,h2,h3,h4, h5, h6, p,
+    #wrapper .nav_links .nav-link{
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+    #newsFeed .frame-detail h6 {
+        font-weight: 500;
+    }
+}
+body:lang(SC)
+{
+    h1,h2,h3,h4, h5, h6, p,
+    #wrapper .nav_links .nav-link{
+        font-family: 'Noto Sans SC', sans-serif;
+    }
+    #newsFeed .frame-detail h6 {
+        font-weight: 800;
+    }
+}

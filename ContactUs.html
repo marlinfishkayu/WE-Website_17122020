@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css" rel="stylesheet" />
+        <!-- external font-->
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.typekit.net/mlx7mqk.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">
+        <link href="//db.onlinewebfonts.com/c/da950f2527dc01bebcbedd536e38c145?family=Futura" rel="stylesheet" type="text/css"/>
+        <!-- Outdated Browser v1.1.5 -->
+        <link rel="stylesheet" href="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.css" />
+        <!-- Owl CSS -->
+        <link rel="stylesheet" href="OwlCarousel2/owl.carousel.min.css" />
+        <link rel="stylesheet" href="OwlCarousel2/owl.theme.default.min.css" />
+        <!-- Sal CSS -->
+        <link rel="stylesheet" href="./styles/sal.css" />
+        <!-- Animate CSS  -->
+        <link rel="stylesheet" type="text/css" href="assets/css/animate.css" media="screen" />
+        <!-- main CSS -->
+        <link rel="stylesheet" href="./styles/main.css" />
+        
+        <title>World Entertainment</title>
+        <link rel="shortcut icon" type="image/svg" href="./images/icon/favicon.svg" />
+       
+    </head>
+    <body>
+        <div id="wrapper">
+            <section class="section-header" id="nav">
+                <div class="header-wrapper">
+                    <!-- navigation bar -->
+                    <div class="nav-wrap">
+                        <div id="nav-area">
+                            <div class="main-nav">
+                                <!-- nav links -->
+                                <li class="nav-item logo-wrap" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8; --sal-delay: 0.1s;">
+                                    <a class="navbar-brand menu-item menu-logo" href="index.html">
+                                        <div class="nav-logo"><img class="imageset" data-key="WE_logo" src="./images/icon/en/logo.svg" alt="" loading="lazy" /></div>
+                                    </a>
+                                </li>
+                                <ul class="nav_links">
+                                    <li class="nav-item"  data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8; --sal-delay: 0.1s;">
+                                        <a class="nav-link menu-item menu-about lang" key="nav_About" href="AboutWE.html">About WE</a>
+                                    </li>
+                                    <li class="nav-item dropdown" id="gamesHover"  data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.2s;">
+                                        <a class="nav-link menu-item menu-games lang" key="nav_LiveGames" href="All_Live_Game.html">Games</a>
+                                        <div class="game-menu" style="margin: 0; width: 100%;">
+                                            <div class="subnav-arrow"></div>
+                                            <div class="game-menu-wrapper">
+                                                <!-- game menu tab -->
+                                                <ul class="nav justify-content-center" id="gameSubtab" role="tablist">
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.1s;">
+                                                        <a class="nav-game-link fancy-link lang active" key="submenu_LiveGames" id="pills-livegame-tab" data-toggle="pill" href="#pills-livegame" role="tab" aria-controls="pills-livegame" aria-selected="true">
+                                                            LIVE GAME
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.2s;">
+                                                        <a class="nav-game-link fancy-link lang" key="submenu_Lottery" id="pills-lottery-tab" data-toggle="pill" href="#pills-lottery" role="tab" aria-controls="pills-lottery" aria-selected="false">LOTTERY</a>
+                                                    </li>
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.3s;">
+                                                        <a class="nav-game-link fancy-link lang" key="submenu_Sportsbook" id="pills-sportsbook-tab" data-toggle="pill" href="#pills-sportsbook" role="tab" aria-controls="pills-sportsbook" aria-selected="false">
+                                                            SPORTSBOOK
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.4s;">
+                                                        <a class="nav-game-link fancy-link lang" key="submenu_Slots" id="pills-slots-tab" data-toggle="pill" href="#pills-slots" role="tab" aria-controls="pills-slots" aria-selected="false">SLOTS</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="game-tab-content" id="pills-tabContent">
+                                                    <!-- Live game tab -->
+                                                    <div class="tab-pane fade show active" id="pills-livegame" role="tabpanel" aria-labelledby="pills-livegame-tab">
+                                                        <div class="d-flex justify-content-center">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_Blockchain_Baccarat.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="images/icon/gemaMenu/BlockchainBaccarat_x1.jpg"
+                                                                                srcset="images/icon/gameMenu/BlockchainBaccarat_x1.jpg 500w, images/icon/gameMenu/BlockchainBaccarat_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <h4><span class="lang" key="Blockchain">Blockchain</span><br/><span class="lang" key="Baccarat">Baccarat</span></h4>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_Blockchain_SpeedBaccarat.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="images/icon/gemaMenu/BlockchainSpeedBaccarat_x1.jpg"
+                                                                                srcset="images/icon/gameMenu/BlockchainSpeedBaccarat_x1.jpg 500w, images/icon/gameMenu/BlockchainSpeedBaccarat_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <h4><span class="lang" key="Blockchain">Blockchain</span><br/><span class="lang" key="SpeedBaccarat">Speed Baccarat</span></h4>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_Blockchain_DragonTiger.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="images/icon/gemaMenu/BlockchainDragonTiger_x1.jpg"
+                                                                                srcset="images/icon/gameMenu/BlockchainDragonTiger_x1.jpg 500w, images/icon/gameMenu/BlockchainDragonTiger_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <h4><span class="lang" key="Blockchain">Blockchain</span><br/><span class="lang" key="DragonTiger">Dragon Tiger</span></h4>
+                                                                </a>
+                                                            </div>  
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_Blockchain_SqueezeBaccarat.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="images/icon/gemaMenu/BlockchainSqueezeBaccarat_x1.jpg"
+                                                                                srcset="images/icon/gameMenu/BlockchainSqueezeBaccarat_x1.jpg 500w, images/icon/gameMenu/BlockchainSqueezeBaccarat_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <h4><span class="lang" key="Blockchain">Blockchain</span><br/><span class="lang" key="SqueezeBaccarat">Squeeze Baccarat</span></h4>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="all-games" id="allGameBtn">
+                                                            <a href="All_Live_Game.html"><button class="secondaryBtn lang" type="button" key="submenu_AllLiveGame">ALL LIVE GAMES</button></a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Live game tab -->
+                                                    <div class="tab-pane fade lang" key="ComingSoon" id="pills-lottery" role="tabpanel" aria-labelledby="pills-lottery-tab">COMING SOON</div>
+                                                    <div class="tab-pane fade lang" key="ComingSoon" id="pills-sportsbook" role="tabpanel" aria-labelledby="pills-sportsbook-tab">COMING SOON</div>
+                                                    <div class="tab-pane fade lang" key="ComingSoon" id="pills-slots" role="tabpanel" aria-labelledby="pills-slots-tab">COMING SOON</div>
+                                                </div>
+                                                <!-- game menu tab -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.3s;">
+                                        <a class="nav-link menu-item menu-liveStudio lang" key="nav_LiveStudio" href="LiveStudio.html">Live Studio</a>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.4s;">
+                                        <a class="nav-link menu-item menu-services lang" key="nav_Services" href="Services.html">Services</a>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.5s;">
+                                        <a class="nav-link menu-item menu-whatsNew lang" key="nav_WhatsNew" href="WhatsNew.html">What's New</a>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.6s;">
+                                        <a class="nav-link menu-item menu-contactUs lang active-tap" key="nav_ContactUs" href="ContactUs.html">Contact Us</a>
+                                    </li>
+                                </ul>
+                                <li class="nav-item nav-icon" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.7s;">
+                                    <div class="nav-icon-wrapper">
+                                        <div>
+                                            <a class="icon-search menu-item search" id="navSearch" href="#search">
+                                                <img src="images/icon/search.svg" />
+                                            </a>
+                                        </div>
+                                        <div class="search-wrapper menu-item menu-lang">
+                                            <a id="icon-lang">
+                                                <img src="images/icon/lang.svg" />
+                                            </a>
+                                            <button class="icon-lang">
+                                                <h6 class="lang" key="current-lang">En</h6>
+                                            </button>
+                                            <ul class="lang-dropdown" id="languageDropdown">
+                                                <a id="EN" href="#" class="translate"><li class="language-tap active">English</li></a>
+                                                <a id="TC" href="#" class="translate"><li class="language-tap">繁體中文</li></a>
+                                                <a id="SC" href="#" class="translate"><li class="language-tap">简体中文</li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-wrapper menu-item">
+                                        <div class="menu-btn">
+                                            <div class="menu-btn__burger"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <div class="search-container">
+                                    <div class="search-form" id="searchForm">
+                                        <form>
+                                            <input class="lang search-input" key="nav_Search" type="text" name="" placeholder="Search our website"/>
+                                        </form>
+                                    </div>
+                                </div>
+                                <a class="closeBtn"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- side menu start  -->
+                    <nav class="sidebar">
+                        <a class="navbar-brand menu-item menu-logo" href="index.html" id="logoMobile">
+                            <div class="nav-logo"><img class="imageset" data-key="WE_logo" src="./images/icon/en/logo.svg" alt="" loading="lazy" /></div>
+                        </a>
+                        <div class="menu-wrapper menu-item" id="menuMobile">
+                            <div class="menu-btn">
+                                <div class="menu-btn__burger"></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li class="side-item">
+                                <a href="AboutWE.html" class="lang" key="nav_About">About WE</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="#" class="game-btn">
+                                    <span class="lang" key="nav_LiveGames">Games</span>
+                                    <span class="fa-arrow">
+                                        <img src="./images/icon/dropdown.svg" />
+                                    </span>
+                                </a>
+                                <ul class="game-show">
+                                    <li class="game-item">
+                                        <a href="#" class="livegame-btn">
+                                            <span class="lang" key="submenu_LiveGames">LIVE GAME</span>
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <ul class="game-sub-item livegame-show">
+                                        <li><a href="All_Live_Game.html"><span class="lang" key="submenu_AllLiveGame">ALL LIVE GAMES</span></a></li>
+                                        <li><a href="Game_LiveGame_Blockchain_Baccarat.html"><span class="lang" key="BlockchainBaccarat">Blockchain Baccarat</span></a></li>
+                                        <li><a href="Game_LiveGame_Blockchain_DragonTiger.html"><span class="lang" key="BlockchainDragonTiger">Blockchain Dragon Tiger</span></a></li>
+                                        <li><a href="Game_LiveGame_Blockchain_SpeedBaccarat.html"><span class="lang" key="BlockchainSpeedBaccarat">Blockchain Speed Baccarat</span></a></li>
+                                        <li><a href="Game_LiveGame_Blockchain_SqueezeBaccarat.html"><span class="lang" key="BlockchainSqueezeBaccarat">Blockchain Squeeze Baccarat</span></a></li>
+                                        <li><a href="Game_LiveGame_Baccarat.html"><span class="lang" key="Baccarat">BACCARAT</span></a></li>
+                                        <li><a href="Game_LiveGame_Roulette.html"><span class="lang" key="Roulette">ROULETTE</span></a></li>
+                                        <li><a href="Game_LiveGame_SicBo.html"><span class="lang" key="SicBo">SIC BO</span></a></li>
+                                        <li><a href="Game_LiveGame_DragonTiger.html"><span class="lang" key="DragonTiger">DRAGON TIGER</span></a></li>
+                                        <li><a href="Game_LiveGame_SqueezeBaccarat.html"><span class="lang" key="SqueezeBaccarat">Squeeze Baccarat</span></a></li>
+                                        <li><a href="Game_LiveGame_MahjongLuckyWheel.html"><span class="lang" key="MahjongLuckyWheel">MAHJONG LUCKY WHEEL</span></a></li>
+                                        <li><a href="Game_LiveGame_GodofFortuneSicBo.html"><span class="lang" key="GodofFortuneSicBo">God of Fortune Sic Bo</span></a></li>
+                                        <li><a href="Game_LiveGame_GodofFortuneRoulette.html"><span class="lang" key="GodofFortuneRoulette">God of Fortune Roulette</span></a></li>
+                                        <li><a href="Game_LiveGame_WinThreeCards.html"><span class="lang" key="WinThreeCards">Win Three Cards</span></a></li>
+                                    </ul>
+                                    <li class="game-item">
+                                        <a href="#">
+                                            <span class="lang" key="submenu_Lottery">LOTTERY</span>
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="game-item">
+                                        <a href="#">
+                                            <span class="lang" key="submenu_Sportsbook">SPORTSBOOK</span>
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="game-item">
+                                        <a href="#">
+                                            <span class="lang" key="submenu_Slots">SLOTS</span>
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="side-item">
+                                <a href="LiveStudio.html"><span class="lang" key="nav_LiveStudio">Live Studio</span></a>
+                            </li>
+                            <li class="side-item">
+                                <a href="Services.html"><span class="lang" key="nav_Services">Services</span></a>
+                            </li>
+                            <li class="side-item">
+                                <a href="WhatsNew.html"><span class="lang" key="nav_WhatsNew">What’s New</span></a>
+                            </li>
+                            <li class="side-item">
+                                <a href="ContactUs.html"><span class="lang" key="nav_ContactUs">Contact Us</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- side menu end  -->
+
+                    <!-- navigation bar end -->
+                </div>
+            </section>
+            <!-- Contact Us Start -->
+            <div id="ContactUs">
+                <div class="hero-header text-center">
+                    <div class="hero-header-bkg">
+                        <img
+                            src="images/contact/hero_contact_x1.jpg"
+                            srcset="images/contact/hero_contact_x1.jpg 500w, images/contact/hero_contact_x2.jpg 1000w"
+                            alt=""
+                        />
+                    </div>
+                    <div class="hero-float">
+                        <h1 class="hero-title lang" key="ContactUs" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0s;">
+                            Contact Us
+                        </h1>
+                        <h3 class="hero-intro1 lang" key="ContactUs_slogan" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.15s;">
+                            Help is at hand.
+                        </h3>
+                        <p class="hero-intro2 lang" key="ContactUs_p1" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.25s;">
+                            Leave us your message by filling the contact form below and WE’ll be in touch with you soon.
+                        </p>
+                        <p class="hero-intro2 md-block" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.35s;">
+                            <span class="lang" key="ContactUs_p2">By filling up this form, you agree and are willing to allow us to collect your contact details and other information that may be required to enable us to effectively and efficiently reply to all your enquiries.
+                                For more details, please check out our</span> <a href="PrivacyTerms.html" class="hyperlink lang" key="ContactUs_privacy">privacy policy</a>
+                        </p>
+                        
+                    </div>
+                </div>
+                <!-- Start Content Section -->
+                <div class="contact-main">       
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- Start Contact Form -->
+                                <form role="form" id="contactForm" class="contact-form" data-toggle="validator" class="shake">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="text" id="firstname" class="form-control lang" key="firstName" placeholder="First name" required data-error="First Name is required." />
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="text" id="lastname" class="form-control lang" key="lastName" placeholder="Last name" required data-error="Last Name is required." />
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="text" id="PhoneNumber" class="form-control lang" key="Phone" placeholder="Phone number" required data-error="Phone is required." />
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="form-group">
+                                                <div class="controls" >
+                                                    <select required class="first-select" data-error="Country is required." >
+                                                        <option class="lang" key="Country" value="" disabled selected>Country</option>
+                                                        <option class="lang" key="HongKong">Hong Kong</option>
+                                                        <option class="lang" key="China">China</option>
+                                                        <option class="lang" key="Thailand">Thailand</option>
+                                                        <option class="lang" key="Singapore">Singapore</option>
+                                                        <option class="lang" key="Philippines">Philippines</option>
+                                                      </select>
+                                                      <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-8">
+                                            <div class="form-group">
+                                                <div class="controls">
+                                                    <input type="email" class="email form-control lang" key="Email" id="email" placeholder="Email" required data-error="Email is required." />
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-4">
+                                            <div class="form-group">
+                                                <div class="controls" >
+                                                    <select required  id="myselectT" data-error="This field is required." >
+                                                        <option class="lang" key="Enquiry_type" value="" disabled selected>Enquiry type</option>
+                                                        <option class="lang" key="Business">Business</option>
+                                                        <option class="lang" key="Career">Career</option>
+                                                        <option class="lang" key="Other">Other</option>
+                                                      </select>
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="controls">
+                                            <textarea id="message" rows="7" class="form-control" key="message" placeholder="Your message here"  required data-error="This field is required."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="controls check-parent">
+                                            <input type="checkbox" id="check3" class="form-control checkbox" required data-error="This field is required." />
+                                            <label class="form-check-label lang" key="statement_agree" for="Check3">  Yes, I agree to the Privacy Policy*.
+                                            </label>
+                                            <div class="help-block with-errors"></div>
+                                            <span class="checkmark"></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="controls check-parent">
+                                            <input type="checkbox" id="check3" checked class="form-control checkbox" />
+                                            <label class="form-check-label lang" key="statement_promotional" for="Check3"> I agree to receive marketing promotional materials and news from you via email.
+                                            </label>
+                                            <div class="help-block with-errors"></div>
+                                            <span class="checkmark"></span>
+                                        </div>
+                                    </div>
+                                    <div class="enquiry-button">
+                                        <button type="submit" id="submit" class="enquiryBtn btn lang" key="submit" type="button">
+                                            SUBMIT ENQUIRY
+                                        </button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    
+                                </form>
+                                <!-- End Contact Form -->
+                            </div>
+                        </div>
+                        <div class="contact-bottom">
+                            <h2 class="bottom-deco lang" key="Get_in_touch">GET IN TOUCH</h2>
+                            <p class="hero-intro2 text-center lang" key="Get_in_touch_p1">We’re keen on talking anything with you.</p>
+                            <div class="contact-method d-flex justify-content-center">
+                                <div class="contact-email">
+                                    <img src="images/icon/mail-icon.svg" alt=""/>
+                                </div>
+                                <p class="hero-intro2 custom-intro2"><a href="mailto:info@wordent.com" class="email-link">info@wordent.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Content Section  -->
+            </div>
+            <!-- Contact Us End -->
+
+            <!-- Cookie popup start-->
+            <div class="cookie-container">
+                <div class="cookie-deco">
+                    <img src="./images/icon/bottom-deco.svg">
+                </div>
+                <p class="lang" key="Cookie_p1">WE use cookies to ensure you get the best experience on our website. WE will assume you have agreed to our <a href="PrivacyTerms.html">Privacy Policy</a> by continuing to use our website henceforth.
+                </p>
+                <div class="accept-btn">
+                    <button class="secondaryBtn cookie-btn"><span class="lang" key="Accept">Accept</span></button>
+                </div>
+            </div>
+            <!-- Cookie popup end-->
+
+            <!-- Footer start -->
+            <footer>
+                <div class="main-footer">
+                    <div class="footer-subscribe">
+                        <div class="d-lg-flex justify-content-md-between flex-lg-row-reverse">
+                            <div class="d-md-flex flex-column">
+                                <h6 class="lang" key="Subscribe">Subscribe</h6>
+                                <br />
+                                <p class="lang" key="Subscribe_p">
+                                    Be the first to know about the latest news and <br class="footer-break" />
+                                    exclusive offers from WE.
+                                </p>
+                                <div class="d-sm-flex">
+                                    <form class="subscribe-form">
+                                        <div class="form-group">
+                                            <input type="email" data-translate="username_placeHolder" class="form-control lang" key="input_email" id="exampleFormControlInput1" placeholder="Please enter your email here" />
+                                        </div>
+                                    </form>
+                                    <button type="button" class="btn lang" key="SignUp" id="signUp">SIGN UP</button>
+                                </div>
+                            </div>
+                            <div class="footer-licens">
+                                <div class="footer-logo">
+                                    <img class="imageset" data-key="WE_logo" alt="" src="./images/icon/en/logo.svg" />
+                                </div>
+                                <div class="d-sm-flex flex-sm-row licens-list">
+                                    <div class="d-sm-flex flex-sm-row tag-left">
+                                        <h6 class="lang" key="LicCert">Licences & Certifications</h6>
+                                        <div class="d-flex flex-row">
+                                            <div class="licens-icon">
+                                                <img id="iso-2" src="./images/icon/GLC.svg" alt="" />
+                                            </div>
+                                            <div class="licens-icon" id="licensIcon2">
+                                                <img id="iso-3" src="./images/icon/pagcor_1.svg"  alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="underline">
+                        <div class="footer-logo">
+                            <img class="imageset" data-key="WE_logo" alt="" src="./images/icon/en/logo.svg" />
+                        </div>
+                        <div class="d-sm-flex justify-content-md-between">
+                            <div class="d-sm-flex flex-sm-row footer-TC">
+                                <h6 class="lang" key="WorldEnt">©2020 WORLD ENTERTAINMENT.</h6>
+                                <div class="d-sm-flex flex-sm-row TC">
+                                    <a href="PrivacyTerms.html"><h6 class="lang" key="PrivacyPolicy">Privacy Policy</h6></a>
+                                </div>
+                            </div>
+                            <div class="footer-social">
+                                <div class="d-flex justify-content-sm-end justify-content-center">
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/World-Entertainment-103485598040783" class="footer-icon">
+                                        <img alt="" src="images/icon/fb_f.svg" />
+                                    </a>
+                                    <a href="mailto:info@wordent.com" class="footer-icon">
+                                        <img alt="" src="images/icon/mail_f.svg" />
+                                    </a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/worldent.official/?hl=zh-hk" class="footer-icon">
+                                        <img alt="" src="images/icon/ig_f.svg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer end -->
+            
+            <!-- Thank you for subscribe popup start-->
+            <div id="thankyou-popup">
+                <div class="thankyou-bkg">
+                    <div id="thankyou-bkg-m">
+                        <img
+                            src="./images/thankyou/thankyou_bkg_m_x1.png"
+                            srcset="./images/thankyou/thankyou_bkg_m_x1.png 500w, ./images/thankyou/thankyou_bkg_m_x2.png 1000w"
+                            alt=""
+                        />
+                    </div>
+                    <div id="thankyou-bkg-d">
+                        <img
+                            src="./images/thankyou/thankyou-bkg_x1.png"
+                            srcset="./images/thankyou/thankyou-bkg_x1.png 500w, ./images/thankyou/thankyou-bkg_x2.png 1000w"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div class="wrap">
+                    <h1 class="lang" key="HelloThere">Hello There!</h1>
+                    <div class="thankyou-deco">
+                        <img src="./images/icon/bottom-deco.svg"  alt="" />
+                    </div>
+                    
+                    <p class="hero-intro lang" key="thankyou_p">You’re on our mailing list now and will be among the first to hear about the latest news and exclusive offers from WE.</p>
+                    <div class="back-btn">
+                        <button class="secondaryBtn thanyou-close-btn lang" key="Okay">OKAY</button>
+                    </div>
+                </div>
+                <div class="close-btn thanyou-close-btn">
+                    <div class="closeBtn">
+                        <img src="images/thankyou/close_icon.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <!-- Thank you for subscribe popup end-->
+        </div>
+        <!-- ============= Outdated Browser ============= -->
+        <div id="outdated"></div>
+        <!-- Outdated javascript includes -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+        
+        <!-- Outdated plugin call -->
+        <script>
+            // Plain Javascript
+            //event listener: DOM ready
+            function addLoadEvent(func) {
+                var oldonload = window.onload;
+                if (typeof window.onload != "function") {
+                    window.onload = func;
+                } else {
+                    window.onload = function () {
+                        if (oldonload) {
+                            oldonload();
+                        }
+                        func();
+                    };
+                }
+            }
+            //call plugin function after DOM ready
+            addLoadEvent(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+            // Using jQuery (version that supports IE < 9)
+            $(document).ready(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+        </script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <!-- Sal JS  -->
+        <script src="./js/sal.js"></script>
+        <script>
+            sal();
+        </script>
+        <!-- Validator JS  -->
+        <script type="text/javascript" src="assets/js/jquery-min.js"></script>
+        <script type="text/javascript" src="assets/js/form-validator.min.js"></script>
+        <script type="text/javascript" src="assets/js/contact-form-script.js"></script>
+        <!-- External JS  -->
+        <script src="OwlCarousel2/owl.carousel.min.js"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
+        <!-- Main JS  -->
+        <script src="./js/tilt.jquery.js" type="text/javascript"></script>
+        <script src="./js/main.js" type="text/javascript"></script>
+        <script type="text/javascript" src="./js/language_switch.js"></script>
+        <script type="text/javascript" src="./json/multi-language/lang_ContactUs.js"></script>
+    </body>
+</html>

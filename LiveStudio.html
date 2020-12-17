@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <!-- external font-->
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.typekit.net/mlx7mqk.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet" />
+        <link href="//db.onlinewebfonts.com/c/da950f2527dc01bebcbedd536e38c145?family=Futura" rel="stylesheet" type="text/css"/>
+        <!-- Outdated Browser v1.1.5 -->
+        <link rel="stylesheet" href="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.css" />
+        <!-- Owl CSS -->
+        <link rel="stylesheet" href="OwlCarousel2/owl.carousel.min.css" />
+        <link rel="stylesheet" href="OwlCarousel2/owl.theme.default.min.css" />
+        <!-- Sal CSS -->
+        <link rel="stylesheet" href="./styles/sal.css" />
+        <!-- light slider gallery (lg)-->
+        <link type="text/css" rel="stylesheet" href="./styles/lightgallery.css" />
+        <!-- main CSS -->
+        <link rel="stylesheet" href="./styles/main.css" />
+        <title>World Entertainment</title>
+        <link rel="shortcut icon" type="image/svg" href="./images/icon/favicon.svg" />
+        <!-- jQuery JS (lg)-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <section class="section-header" id="nav">
+                <div class="header-wrapper">
+                    <!-- navigation bar -->
+                    <div class="nav-wrap">
+                        <div id="nav-area">
+                            <div class="main-nav">
+                                <!-- nav links -->
+                                <li class="nav-item logo-wrap" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8; --sal-delay: 0.1s;">
+                                    <a class="navbar-brand menu-item menu-logo" href="index.html">
+                                        <div class="nav-logo"><img class="imageset" data-key="WE_logo" src="./images/icon/en/logo.svg" alt="" loading="lazy" /></div>
+                                    </a>
+                                </li>
+                                <ul class="nav_links">
+                                    <li class="nav-item"  data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8; --sal-delay: 0.1s;">
+                                        <a class="nav-link menu-item menu-about lang" key="nav_About" href="AboutWE.html">About WE</a>
+                                    </li>
+                                    <li class="nav-item dropdown" id="gamesHover"  data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.2s;">
+                                        <a class="nav-link menu-item menu-games lang" key="nav_LiveGames" href="All_Live_Game.html">Games</a>
+                                        <div class="game-menu" style="margin: 0; width: 100%;">
+                                            <div class="subnav-arrow"></div>
+                                            <div class="game-menu-wrapper">
+                                                <!-- game menu tab -->
+                                                <ul class="nav justify-content-center" id="gameSubtab" role="tablist">
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.1s;">
+                                                        <a class="nav-game-link fancy-link lang active" key="submenu_LiveGames" id="pills-livegame-tab" data-toggle="pill" href="#pills-livegame" role="tab" aria-controls="pills-livegame" aria-selected="true">
+                                                            LIVE GAME
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.2s;">
+                                                        <a class="nav-game-link fancy-link lang" key="submenu_Lottery" id="pills-lottery-tab" data-toggle="pill" href="#pills-lottery" role="tab" aria-controls="pills-lottery" aria-selected="false">LOTTERY</a>
+                                                    </li>
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.3s;">
+                                                        <a class="nav-game-link fancy-link lang" key="submenu_Sportsbook" id="pills-sportsbook-tab" data-toggle="pill" href="#pills-sportsbook" role="tab" aria-controls="pills-sportsbook" aria-selected="false">
+                                                            SPORTSBOOK
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-game-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 1; --sal-delay: 0.4s;">
+                                                        <a class="nav-game-link fancy-link lang" key="submenu_Slots" id="pills-slots-tab" data-toggle="pill" href="#pills-slots" role="tab" aria-controls="pills-slots" aria-selected="false">SLOTS</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="game-tab-content" id="pills-tabContent">
+                                                    <!-- Live game tab -->
+                                                    <div class="tab-pane fade show active" id="pills-livegame" role="tabpanel" aria-labelledby="pills-livegame-tab">
+                                                        <div class="d-flex justify-content-center">
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_Blockchain_Baccarat.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="images/icon/gemaMenu/BlockchainBaccarat_x1.jpg"
+                                                                                srcset="images/icon/gameMenu/BlockchainBaccarat_x1.jpg 500w, images/icon/gameMenu/BlockchainBaccarat_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <h4><span class="lang" key="Blockchain">Blockchain</span><br/><span class="lang" key="Baccarat">Baccarat</span></h4>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_Blockchain_SpeedBaccarat.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="images/icon/gemaMenu/BlockchainSpeedBaccarat_x1.jpg"
+                                                                                srcset="images/icon/gameMenu/BlockchainSpeedBaccarat_x1.jpg 500w, images/icon/gameMenu/BlockchainSpeedBaccarat_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <h4><span class="lang" key="Blockchain">Blockchain</span><br/><span class="lang" key="SpeedBaccarat">Speed Baccarat</span></h4>
+                                                                </a>
+                                                            </div>
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_Blockchain_DragonTiger.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="images/icon/gemaMenu/BlockchainDragonTiger_x1.jpg"
+                                                                                srcset="images/icon/gameMenu/BlockchainDragonTiger_x1.jpg 500w, images/icon/gameMenu/BlockchainDragonTiger_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <h4><span class="lang" key="Blockchain">Blockchain</span><br/><span class="lang" key="DragonTiger">Dragon Tiger</span></h4>
+                                                                </a>
+                                                            </div>  
+                                                            <div class="game-icon-wrap p-2" id="gameMenu-baccarat" data-sal="slide-up" data-sal-easing="easeInQuart" style="--sal-duration: 0.5s; --sal-delay: 0;">
+                                                                <a href="Game_LiveGame_Blockchain_SqueezeBaccarat.html">
+                                                                    <div class="game-icon-container">
+                                                                        <div class="game-icon-bkg-wrap">
+                                                                            <img class="inner-img"
+                                                                                src="images/icon/gemaMenu/BlockchainSqueezeBaccarat_x1.jpg"
+                                                                                srcset="images/icon/gameMenu/BlockchainSqueezeBaccarat_x1.jpg 500w, images/icon/gameMenu/BlockchainSqueezeBaccarat_x2.jpg 1000w"
+                                                                                alt=""
+                                                                            />
+                                                                        </div>
+                                                                    </div>
+                                                                    <h4><span class="lang" key="Blockchain">Blockchain</span><br/><span class="lang" key="SqueezeBaccarat">Squeeze Baccarat</span></h4>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="all-games" id="allGameBtn">
+                                                            <a href="All_Live_Game.html"><button class="secondaryBtn lang" type="button" key="submenu_AllLiveGame">ALL LIVE GAMES</button></a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Live game tab -->
+                                                    <div class="tab-pane fade lang" key="ComingSoon" id="pills-lottery" role="tabpanel" aria-labelledby="pills-lottery-tab">COMING SOON</div>
+                                                    <div class="tab-pane fade lang" key="ComingSoon" id="pills-sportsbook" role="tabpanel" aria-labelledby="pills-sportsbook-tab">COMING SOON</div>
+                                                    <div class="tab-pane fade lang" key="ComingSoon" id="pills-slots" role="tabpanel" aria-labelledby="pills-slots-tab">COMING SOON</div>
+                                                </div>
+                                                <!-- game menu tab -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.3s;">
+                                        <a class="nav-link menu-item menu-liveStudio active-tap lang" key="nav_LiveStudio" href="LiveStudio.html">Live Studio</a>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.4s;">
+                                        <a class="nav-link menu-item menu-services lang" key="nav_Services" href="Services.html">Services</a>
+                                    </li>
+                                    <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.5s;">
+                                        <a class="nav-link menu-item menu-whatsNew lang" key="nav_WhatsNew" href="WhatsNew.html">What's New</a>
+                                    </li>
+                                    <!-- <li class="nav-item" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.6s;">
+                                        <a class="nav-link menu-item menu-contactUs lang" key="nav_ContactUs" href="ContactUs.html">Contact Us</a>
+                                    </li> -->
+                                </ul>
+                                <li class="nav-item nav-icon" data-sal="fade" data-sal-easing="easeInQuart" style="--sal-duration: 0.8s; --sal-delay: 0.7s;">
+                                    <div class="nav-icon-wrapper">
+                                        <!-- <div>
+                                            <a class="icon-search menu-item search" id="navSearch" href="#search">
+                                                <img src="images/icon/search.svg" />
+                                            </a>
+                                        </div> -->
+                                        <div class="search-wrapper menu-item menu-lang">
+                                            <a id="icon-lang">
+                                                <img src="images/icon/lang.svg" />
+                                            </a>
+                                            <button class="icon-lang">
+                                                <h6 class="lang" key="current-lang">En</h6>
+                                            </button>
+                                            <ul class="lang-dropdown" id="languageDropdown">
+                                                <a id="EN" href="#" class="translate"><li class="language-tap active">English</li></a>
+                                                <a id="TC" href="#" class="translate"><li class="language-tap">繁體中文</li></a>
+                                                <a id="SC" href="#" class="translate"><li class="language-tap">简体中文</li></a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="menu-wrapper menu-item">
+                                        <div class="menu-btn">
+                                            <div class="menu-btn__burger"></div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- <div class="search-container">
+                                    <div class="search-form" id="searchForm">
+                                        <form>
+                                            <input class="lang search-input" key="nav_Search" type="text" name="" placeholder="Search our website"/>
+                                        </form>
+                                    </div>
+                                </div> -->
+                                <a class="closeBtn"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- side menu start  -->
+                    <nav class="sidebar">
+                        <a class="navbar-brand menu-item menu-logo" href="index.html" id="logoMobile">
+                            <div class="nav-logo"><img class="imageset" data-key="WE_logo" src="./images/icon/en/logo.svg" alt="" loading="lazy" /></div>
+                        </a>
+                        <div class="menu-wrapper menu-item" id="menuMobile">
+                            <div class="menu-btn">
+                                <div class="menu-btn__burger"></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li class="side-item">
+                                <a href="AboutWE.html" class="lang" key="nav_About">About WE</a>
+                            </li>
+                            <li class="side-item">
+                                <a href="#" class="game-btn">
+                                    <span class="lang" key="nav_LiveGames">Games</span>
+                                    <span class="fa-arrow">
+                                        <img src="./images/icon/dropdown.svg" />
+                                    </span>
+                                </a>
+                                <ul class="game-show">
+                                    <li class="game-item">
+                                        <a href="#" class="livegame-btn">
+                                            <span class="lang" key="submenu_LiveGames">LIVE GAME</span>
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <ul class="game-sub-item livegame-show">
+                                        <li><a href="All_Live_Game.html"><span class="lang" key="submenu_AllLiveGame">ALL LIVE GAMES</span></a></li>
+                                        <li><a href="Game_LiveGame_Blockchain_Baccarat.html"><span class="lang" key="BlockchainBaccarat">Blockchain Baccarat</span></a></li>
+                                        <li><a href="Game_LiveGame_Blockchain_DragonTiger.html"><span class="lang" key="BlockchainDragonTiger">Blockchain Dragon Tiger</span></a></li>
+                                        <li><a href="Game_LiveGame_Blockchain_SpeedBaccarat.html"><span class="lang" key="BlockchainSpeedBaccarat">Blockchain Speed Baccarat</span></a></li>
+                                        <li><a href="Game_LiveGame_Blockchain_SqueezeBaccarat.html"><span class="lang" key="BlockchainSqueezeBaccarat">Blockchain Squeeze Baccarat</span></a></li>
+                                        <li><a href="Game_LiveGame_Baccarat.html"><span class="lang" key="Baccarat">BACCARAT</span></a></li>
+                                        <li><a href="Game_LiveGame_Roulette.html"><span class="lang" key="Roulette">ROULETTE</span></a></li>
+                                        <li><a href="Game_LiveGame_SicBo.html"><span class="lang" key="SicBo">SIC BO</span></a></li>
+                                        <li><a href="Game_LiveGame_DragonTiger.html"><span class="lang" key="DragonTiger">DRAGON TIGER</span></a></li>
+                                        <li><a href="Game_LiveGame_SqueezeBaccarat.html"><span class="lang" key="SqueezeBaccarat">Squeeze Baccarat</span></a></li>
+                                        <li><a href="Game_LiveGame_MahjongLuckyWheel.html"><span class="lang" key="MahjongLuckyWheel">MAHJONG LUCKY WHEEL</span></a></li>
+                                        <li><a href="Game_LiveGame_GodofFortuneSicBo.html"><span class="lang" key="GodofFortuneSicBo">God of Fortune Sic Bo</span></a></li>
+                                        <li><a href="Game_LiveGame_GodofFortuneRoulette.html"><span class="lang" key="GodofFortuneRoulette">God of Fortune Roulette</span></a></li>
+                                        <li><a href="Game_LiveGame_WinThreeCards.html"><span class="lang" key="WinThreeCards">Win Three Cards</span></a></li>
+                                    </ul>
+                                    <li class="game-item">
+                                        <a href="#">
+                                            <span class="lang" key="submenu_Lottery">LOTTERY</span>
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="game-item">
+                                        <a href="#">
+                                            <span class="lang" key="submenu_Sportsbook">SPORTSBOOK</span>
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="game-item">
+                                        <a href="#">
+                                            <span class="lang" key="submenu_Slots">SLOTS</span>
+                                            <span class="fa-arrow">
+                                                <img src="./images/icon/dropdown.svg" />
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="side-item">
+                                <a href="LiveStudio.html"><span class="lang" key="nav_LiveStudio">Live Studio</span></a>
+                            </li>
+                            <li class="side-item">
+                                <a href="Services.html"><span class="lang" key="nav_Services">Services</span></a>
+                            </li>
+                            <li class="side-item">
+                                <a href="WhatsNew.html"><span class="lang" key="nav_WhatsNew">What’s New</span></a>
+                            </li>
+                            <!-- <li class="side-item">
+                                <a href="ContactUs.html"><span class="lang" key="nav_ContactUs">Contact Us</span></a>
+                            </li> -->
+                        </ul>
+                    </nav>
+                    <!-- side menu end  -->
+
+                    <!-- navigation bar end -->
+                </div>
+            </section>
+            <!-- LIVE STUDIO Start -->
+            <div id="liveStudio">
+                <div class="hero-header text-center">
+                    <div class="hero-header-bkg">
+                        <img src="./images/livestudio/hero_liveStudio_x1.jpg" srcset="./images/livestudio/hero_liveStudio_x1.jpg 500w, ./images/livestudio/hero_liveStudio_x2.jpg 1000w" alt="" />
+                    </div>
+                    <div class="hero-float">
+                        <h1 class="hero-title lang" key="LiveGameStudio" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0s;">
+                            Live Game Studio
+                        </h1>
+                        <h3 class="hero-intro1 lang" key="LiveGameStudio_slogan" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.15s;">
+                            Just the right feel of everything. 
+                        </h3>
+                        <p class="hero-intro2 lang" key="LiveGameStudio_p" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.25s;">
+                            Enjoying a high-end, high-quality, high-class gaming experience in WE. Let us bring you into the rooms.
+                        </p>
+                    </div>
+                </div>
+                <!-- Start LiveStudio Section -->
+                <div class="liveStudio-main">
+                    <div class="livestudio-sec1">
+                        <div class="studio-slide-bkg">
+                            <img
+                                src="./images/livestudio/studio-sec1-bkg_x1.png"
+                                srcset="./images/livestudio/studio-sec1-bkg_x1.png 500w, ./images/livestudio/studio-sec1-bkg_x2.png 1000w"
+                                alt=""
+                            />
+                        </div>
+                        <!-- studio-carousel start -->
+                        <div class="Livestudio-carousel-container"   data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay:  0.35s;">
+                            <div class="owl-carousel owl-theme" id="studioCarousel">
+                                <div class="room-slide" style="width: 295px;">
+                                    <div class="studio-card" id="liveStudio1">
+                                        <li
+                                            style="display: none;"
+                                            data-responsive="images/livestudio/room/livestudio_1-375.png 375, images/livestudio/room/livestudio_1-480.png 480, images/livestudio/room/livestudio_1-800.png 800"
+                                            data-src="images/livestudio/room/livestudio_1-1600.png"
+                                            data-sub-html=""
+                                        >
+                                            <a href="">
+                                                <img class="img-responsive" src="images/livestudio/room/livestudio_1.png" />
+                                            </a>
+                                        </li>
+                                        <a href="./images/livestudio/room/livestudio_1.png">
+                                            <div class="studio-img-container">
+                                                <div class="studio-img-wrap">
+                                                    <picture>
+                                                        <img
+                                                            id="studio-1"
+                                                            class="img-hover"
+                                                            src="./images/livestudio/live-slide_1_x1.png"
+                                                            srcset="./images/livestudio/live-slide_1_x1.png 500w, ./images/livestudio/live-slide_1_x2.png 1000w"
+                                                            style="width: 100%; height: auto; background-position: 50% 10%; background-size: cover; object-fit: cover; transform: translate(0px, 0px);"
+                                                            alt=""
+                                                        />
+                                                    </picture>
+                                                </div>
+                                                <div class="studio-slide-text">
+                                                    <h6 class="room-num">01</h6>
+                                                    <h4 class="room-name lang" key="Cyber">CYBER</h4>
+                                                    <p class="room-des lang" key="Cyber_p1">
+                                                        The room comes with "Cyber" decorated with modern facilities in a dark background. WE show you a glance into a cyber world of high tech props, light beings and pulsating.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="studio-card" id="liveStudio2">
+                                    <li
+                                        style="display: none;"
+                                        data-responsive="images/livestudio/room/livestudio_2-375.png 375, images/livestudio/room/livestudio_2-480.png 480, images/livestudio/room/livestudio_2-800.png 800"
+                                        data-src="images/livestudio/room/livestudio_2-1600.png"
+                                        data-sub-html=""
+                                    >
+                                        <a href="">
+                                            <img class="img-responsive" src="images/livestudio/room/livestudio_2.png" />
+                                        </a>
+                                    </li>
+                                    <a href="./images/livestudio/room/livestudio_2.png">
+                                        <div class="studio-img-container">
+                                            <div class="studio-img-wrap">
+                                                <picture>
+                                                    <img
+                                                        id="studio-2"
+                                                        class="img-hover"
+                                                        src="./images/livestudio/live-slide_2_x1.png"
+                                                        srcset="./images/livestudio/live-slide_2_x1.png 500w, ./images/livestudio/live-slide_2_x2.png 1000w"
+                                                        style="width: 100%; height: auto; background-position: 50% 10%; background-size: cover; object-fit: cover; transform: translate(0px, 0px);"
+                                                        alt=""
+                                                    />
+                                                </picture>
+                                            </div>
+                                            <div class="studio-slide-text">
+                                                <h6 class="room-num">02</h6>
+                                                <h4 class="room-name lang" key="ArtDeco">Art Deco</h4>
+                                                <p class="room-des lang" key="ArtDeco_p1">Alongside the linear decorations and geometric motifs, muzo green combines high-shine finishes with gold accents creating a modern yet opulent style.</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="studio-card" id="liveStudio3">
+                                    <li
+                                        style="display: none;"
+                                        data-responsive="images/livestudio/room/livestudio_3-375.png 375, images/livestudio/room/livestudio_3-480.png 480, images/livestudio/room/livestudio_3-800.png 800"
+                                        data-src="images/livestudio/room/livestudio_3-1600.png"
+                                        data-sub-html=""
+                                    >
+                                        <a href="">
+                                            <img class="img-responsive" src="images/livestudio/room/livestudio_3.png" />
+                                        </a>
+                                    </li>
+                                    <a href="./images/livestudio/room/livestudio_3.png">
+                                        <div class="studio-img-container">
+                                            <div class="studio-img-wrap">
+                                                <picture>
+                                                    <img
+                                                        id="studio-3"
+                                                        class="img-hover"
+                                                        src="./images/livestudio/live-slide_3_x1.png"
+                                                        srcset="./images/livestudio/live-slide_3_x1.png 500w, ./images/livestudio/live-slide_3_x2.png 1000w"
+                                                        style="width: 100%; height: auto; background-position: 50% 10%; background-size: cover; object-fit: cover; transform: translate(0px, 0px);"
+                                                        alt=""
+                                                    />
+                                                </picture>
+                                            </div>
+                                            <div class="studio-slide-text">
+                                                <h6 class="room-num">03</h6>
+                                                <h4 class="room-name lang" key="Royal">Royal</h4>
+                                                <p class="room-des lang" key="Royal_p1">“Royal” is a luxury suite in WE. The sparkle of gold implies inner wisdom, prestige, luxury and wealth.</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="studio-card" id="liveStudio4">
+                                    <li
+                                        style="display: none;"
+                                        data-responsive="images/livestudio/room/livestudio_4-375.png 375, images/livestudio/room/livestudio_4-480.png 480, images/livestudio/room/livestudio_4-800.png 800"
+                                        data-src="images/livestudio/room/livestudio_4-1600.png"
+                                        data-sub-html=""
+                                    >
+                                        <a href="">
+                                            <img class="img-responsive" src="images/livestudio/room/livestudio_4.png" />
+                                        </a>
+                                    </li>
+                                    <a href="./images/livestudio/room/livestudio_4.png">
+                                        <div class="studio-img-container" data-toggle="modal" data-target="#room4">
+                                            <div class="studio-img-wrap">
+                                                <picture>
+                                                    <img
+                                                        id="studio-4"
+                                                        class="img-hover"
+                                                        src="./images/livestudio/live-slide_4_x1.png"
+                                                        srcset="./images/livestudio/live-slide_4_x1.png 500w, ./images/livestudio/live-slide_4_x2.png 1000w"
+                                                        style="width: 100%; height: auto; background-position: 50% 10%; background-size: cover; object-fit: cover; transform: translate(0px, 0px);"
+                                                        alt=""
+                                                    />
+                                                </picture>
+                                            </div>
+                                            <div class="studio-slide-text">
+                                                <h6 class="room-num">04</h6>
+                                                <h4 class="room-name lang" key="Chinoiserie">Chinoiserie</h4>
+                                                <p class="room-des lang" key="Chinoiserie_p1">The room is embraced by the “Chinoiserie”, which combines traditional decorations and the finest craftsmanship with contemporary finishing.</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="room-slide" style="width: 295px;">
+                                    <div class="studio-card" id="liveStudio5">
+                                        <li
+                                            style="display: none;"
+                                            data-responsive="images/livestudio/room/livestudio_5-375.jpg 375, images/livestudio/room/livestudio_5-480.jpg 480, images/livestudio/room/livestudio_5-800.jpg 800"
+                                            data-src="images/livestudio/room/livestudio_5-1600.jpg"
+                                            data-sub-html=""
+                                        >
+                                            <a href="">
+                                                <img class="img-responsive" src="images/livestudio/room/livestudio_5.jpg" />
+                                            </a>
+                                        </li>
+                                        <a href="./images/livestudio/room/livestudio_5.jpg">
+                                            <div class="studio-img-container">
+                                                <div class="studio-img-wrap">
+                                                    <picture>
+                                                        <img
+                                                            id="studio-5"
+                                                            class="img-hover"
+                                                            src="./images/livestudio/live-slide_5_x1.jpg"
+                                                            srcset="./images/livestudio/live-slide_5_x1.jpg 500w, ./images/livestudio/live-slide_5_x2.jpg 1000w"
+                                                            style="width: 100%; height: auto; background-position: 50% 10%; background-size: cover; object-fit: cover; transform: translate(0px, 0px);"
+                                                            alt=""
+                                                        />
+                                                    </picture>
+                                                </div>
+                                                <div class="studio-slide-text">
+                                                    <h6 class="room-num">05</h6>
+                                                    <h4 class="room-name lang" key="Euro">Euro</h4>
+                                                    <p class="room-des lang" key="Euro_p1">The use of color, “Euro” has chosen noble violet; with simple and gorgeous lightings, mirror walls, it creates a kind of mellow luxury.</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- studio-carousel end -->
+                    </div>
+
+                    <div class="livestudio-sec2">
+                        <div class="WE-diamond-bkg"></div>
+                        <div class="studio-stat-main">
+                            <div class="livestudio-hightlight-wrap">
+                                <h2 class="bottom-deco lang" key="Highlights" id="hightlight" data-sal="fade" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0s;">Highlights</h2>
+                                <div class="container Highlights-container">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 large-text" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0s;">
+                                            <div class="d-flex justify-content-center justify-content-lg-start">
+                                                <h1>2.5</h1><br class="liveStudio-break"/><h6 class="lang" key="Highlights_h1">km</h6>
+                                            </div>
+                                            <p class="lang" key="Highlights_p1">From the Manila Ninoy Aquino International Airport.</p>
+                                        </div>
+                                        <div class="col-12 col-lg-6 large-text" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.15s;">
+                                            <div class="d-flex justify-content-center justify-content-lg-start">
+                                                <h1>8000</h1>
+                                                <h6 class="lang" key="Highlights_h2">sq.m</h6>
+                                            </div>
+                                            <p class="lang" key="Highlights_p2">Double layers studio.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 large-text" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.25s;">
+                                            <div class="d-flex justify-content-center justify-content-lg-start">
+                                                <h1>100+</h1>
+                                                <h6 class="lang" key="Highlights_h3">tables</h6>
+                                            </div>
+                                            <p class="lang" key="Highlights_p3">Includes > 100 traditional gaming tables.</p>
+                                        </div>
+                                        <div class="col-12 col-lg-6 large-text" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.35s;">
+                                            <div class="d-flex justify-content-center justify-content-lg-start">
+                                                <h1>5</h1>
+                                                <h6 class="lang" key="Highlights_h4">themes</h6>
+                                            </div>
+                                            <p class="lang" key="Highlights_p4">Art Deco, Chinoiserie, Cyber, Euro and Royal.</p>
+                                        </div>
+                                    </div>
+                                    <div class="showless-wrap">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 large-text" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.45s;">
+                                                <div class="d-flex justify-content-center justify-content-lg-start">
+                                                    <h1>20</h1>
+                                                    <h6 class="lang" key="Highlights_h5">live games</h6>
+                                                </div>
+                                                <p class="lang" key="Highlights_p5">WE have 13 live games in live streaming. 7 more new games in development.</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 large-text" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.55s;">
+                                                <div class="d-flex justify-content-center justify-content-lg-start">
+                                                    <h1>4K</h1>
+                                                    <h6 class="lang" key="Highlights_h6">resolution</h6>
+                                                </div>
+                                                <p class="lang" key="Highlights_p6">> 400 cameras deliver stunning images with the finest transmission equipment.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6 large-text" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.65s;">
+                                                <div class="d-flex justify-content-center justify-content-lg-start">
+                                                    <h1>600</h1>
+                                                    <h6 class="lang" key="Highlights_h7"></h6>
+                                                </div>
+                                                <p class="lang" key="Highlights_p7">dealers, pitboss, shuffler supporting 24/7 live streaming.</p>
+                                            </div>
+                                            <div class="col-12 col-lg-6 large-text" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.75s;">
+                                                <div class="d-flex justify-content-center justify-content-lg-start">
+                                                    <h1>6</h1>
+                                                    <h6 class="lang" key="Highlights_h8">languages</h6>
+                                                </div>
+                                                <p class="lang" key="Highlights_p8">Serve players from anywhere.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="showless_btn">
+                                        <button type="button" id="hideBtn" class="btn toggle_text lang" key="show_more">SHOW MORE</button>
+                                        <span class="arrow"></span>
+                                    </div>
+                                </div>
+                                <div class="cert-wrap" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0s;">
+                                    <h2 class="bottom-deco cert-bottom" id="liceCert"><span class="lang" key="LiceCert_1">Licences &</span><br/><span class="lang" key="LiceCert_2"> Certifications</span></h2>
+                                    <h3 class="hero-intro2 lang" key="LiceCert_p1">Our studio and gaming content is regulated and designed in compliance with international legislation.</h3>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 cert-item">
+                                                <div class="cert-img-wrap">
+                                                    <picture>
+                                                        <img id="iso-2" src="images/livestudio/iso_2_x1.png" srcset="images/livestudio/iso_2_x1.png 500w, images/livestudio/iso_2_x2.png 1000w" alt="" />
+                                                    </picture>
+                                                    <p class="lang" key="GLI">GLI certification</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6 cert-item">
+                                                <div class="cert-img-wrap">
+                                                    <picture>
+                                                        <img id="iso-3" src="images/livestudio/iso_3_x1.png" srcset="images/livestudio/iso_3_x1.png 500w, images/livestudio/iso_3_x2.png 1000w" alt="" />
+                                                    </picture>
+                                                    <p>PAGCOR</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="livestudio-sec3" data-sal="slide-up" data-sal-easing="easeInOutQuad" style="--sal-duration: 1s; --sal-delay: 0.15s;">
+                        <div class="studio-bottom-bkg">
+                            <img
+                                src="images/livestudio/studio-bottom-bkg_x1.png"
+                                style="width: 100%; background-position: 50% 10%; background-size: cover; height: 100%; object-fit: cover; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality;"
+                                srcset="images/livestudio/studio-bottom-bkg_x1.png 500w, images/livestudio/studio-bottom-bkg_x2.png 1000w"
+                                alt=""
+                            />
+                        </div>
+                        <div class="studio-bottom-main">
+                            <h2 class="bottom-deco lang" key="Dedicated">DEDICATED YOUR <br/> OWN TABLE</h2>
+                            <h3 class="hero-intro2 lang" key="Dedicated_p1">
+                                Crossing over the Asian and the Western elements into Live Game hot picks, our Live Game will be your best business option. WE enable licensees to carry your branding elements inside our Game Lobby and available to configure betting limits. 
+                            </h3>
+                            <h3 class="hero-intro2 lang" key="Dedicated_p2">You’re welcome to visit our studio in the Philippines. Connect with our salesperson for further information.</h3>
+                            <!-- <div class="studio-bottom-btn-wrap">
+                                <a href="ContactUs.html"><button class="secondaryBtn lang" key="Talk" type="button">LET'S TALK</button></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End LiveStudio Section  -->
+            </div>
+            <!-- LIVE STUDIO End -->
+
+            <!-- Cookie popup start-->
+            <div class="cookie-container">
+                <div class="cookie-deco">
+                    <img src="./images/icon/bottom-deco.svg">
+                </div>
+                <p class="lang" key="Cookie_p1">WE use cookies to ensure you get the best experience on our website. WE will assume you have agreed to our <a href="PrivacyTerms.html">Privacy Policy</a> by continuing to use our website henceforth.
+                </p>
+                <div class="accept-btn">
+                    <button class="secondaryBtn cookie-btn"><span class="lang" key="Accept">Accept</span></button>
+                </div>
+            </div>
+            <!-- Cookie popup end-->
+
+            <!-- Footer start -->
+            <footer>
+                <div class="main-footer">
+                    <div class="footer-subscribe">
+                        <div class="d-lg-flex justify-content-md-between flex-lg-row">
+                            <!-- <div class="d-md-flex flex-column">
+                                <h6 class="lang" key="Subscribe">Subscribe</h6>
+                                <br />
+                                <p class="lang" key="Subscribe_p">
+                                    Be the first to know about the latest news and <br class="footer-break" />
+                                    exclusive offers from WE.
+                                </p>
+                                <div class="d-sm-flex">
+                                    <form class="subscribe-form">
+                                        <div class="form-group">
+                                            <input type="email" data-translate="username_placeHolder" class="form-control lang" key="input_email" id="exampleFormControlInput1" placeholder="Please enter your email here" />
+                                        </div>
+                                    </form>
+                                    <button type="button" class="btn lang" key="SignUp" id="signUp">SIGN UP</button>
+                                </div>
+                            </div> -->
+                            <div class="footer-licens">
+                                <div class="footer-logo">
+                                    <img class="imageset" data-key="WE_logo" alt="" src="./images/icon/en/logo.svg" />
+                                </div>
+                                <div class="d-sm-flex flex-sm-row licens-list">
+                                    <div class="d-sm-flex flex-sm-row tag-left">
+                                        <h6 class="lang" key="LicCert">Licences & Certifications</h6>
+                                        <div class="d-flex flex-row">
+                                            <div class="licens-icon">
+                                                <img id="iso-2" src="./images/icon/GLC.svg" alt="" />
+                                            </div>
+                                            <div class="licens-icon" id="licensIcon2">
+                                                <img id="iso-3" src="./images/icon/pagcor_1.svg"  alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="underline">
+                        <div class="footer-logo">
+                            <img class="imageset" data-key="WE_logo" alt="" src="./images/icon/en/logo.svg" />
+                        </div>
+                        <div class="d-sm-flex justify-content-md-between">
+                            <div class="d-sm-flex flex-sm-row footer-TC">
+                                <h6 class="lang" key="WorldEnt">©2020 WORLD ENTERTAINMENT.</h6>
+                                <div class="d-sm-flex flex-sm-row TC">
+                                    <a href="PrivacyTerms.html"><h6 class="lang" key="PrivacyPolicy">Privacy Policy</h6></a>
+                                </div>
+                            </div>
+                            <div class="footer-social">
+                                <div class="d-flex justify-content-sm-end justify-content-center">
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/World-Entertainment-103485598040783" class="footer-icon">
+                                        <img alt="" src="images/icon/fb_f.svg" />
+                                    </a>
+                                    <a href="mailto:info@wordent.com" class="footer-icon">
+                                        <img alt="" src="images/icon/mail_f.svg" />
+                                    </a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/worldent.official/?hl=zh-hk" class="footer-icon">
+                                        <img alt="" src="images/icon/ig_f.svg" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer end -->
+            
+            <!-- Thank you for subscribe popup start-->
+            <div id="thankyou-popup">
+                <div class="thankyou-bkg">
+                    <div id="thankyou-bkg-m">
+                        <img
+                            src="./images/thankyou/thankyou_bkg_m_x1.png"
+                            srcset="./images/thankyou/thankyou_bkg_m_x1.png 500w, ./images/thankyou/thankyou_bkg_m_x2.png 1000w"
+                            alt=""
+                        />
+                    </div>
+                    <div id="thankyou-bkg-d">
+                        <img
+                            src="./images/thankyou/thankyou-bkg_x1.png"
+                            srcset="./images/thankyou/thankyou-bkg_x1.png 500w, ./images/thankyou/thankyou-bkg_x2.png 1000w"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div class="wrap">
+                    <h1 class="lang" key="HelloThere">Hello There!</h1>
+                    <div class="thankyou-deco">
+                        <img src="./images/icon/bottom-deco.svg"  alt="" />
+                    </div>
+                    
+                    <p class="hero-intro lang" key="thankyou_p">You’re on our mailing list now and will be among the first to hear about the latest news and exclusive offers from WE.</p>
+                    <div class="back-btn">
+                        <button class="secondaryBtn thanyou-close-btn lang" key="Okay">OKAY</button>
+                    </div>
+                </div>
+                <div class="close-btn thanyou-close-btn">
+                    <div class="closeBtn">
+                        <img src="images/thankyou/close_icon.svg" alt="" />
+                    </div>
+                </div>
+            </div>
+            <!-- Thank you for subscribe popup end-->
+        </div>
+        <!-- ============= Outdated Browser ============= -->
+        <div id="outdated"></div>
+        <!-- Outdated javascript includes -->
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+
+        <!-- Outdated plugin call -->
+        <script>
+            // Plain Javascript
+            //event listener: DOM ready
+            function addLoadEvent(func) {
+                var oldonload = window.onload;
+                if (typeof window.onload != "function") {
+                    window.onload = func;
+                } else {
+                    window.onload = function () {
+                        if (oldonload) {
+                            oldonload();
+                        }
+                        func();
+                    };
+                }
+            }
+            //call plugin function after DOM ready
+            addLoadEvent(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+            // Using jQuery (version that supports IE < 9)
+            $(document).ready(function () {
+                outdatedBrowser({
+                    bgColor: "#f25648",
+                    color: "#ffffff",
+                    lowerThan: "transform",
+                    languagePath: "your_path/outdatedbrowser/lang/en.html",
+                });
+            });
+        </script>
+
+        <!-- Sal JS  -->
+        <script src="./js/sal.js"></script>
+        <script>
+            sal();
+        </script>
+        <!-- light slider gallery (lg)-->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#liveStudio1").lightGallery();
+                $("#liveStudio2").lightGallery();
+                $("#liveStudio3").lightGallery();
+                $("#liveStudio4").lightGallery();
+                $("#liveStudio5").lightGallery();
+            });
+        </script>
+        <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script src="./js/lightgallery-all.min.js" type="text/javascript"></script>
+        <script src="./js/jquery.mousewheel.min.js" type="text/javascript"></script>
+        <!-- External JS  -->
+
+        <script src="OwlCarousel2/owl.carousel.min.js"></script>
+        <script src="./outdated-browser-develop/outdatedbrowser/outdatedbrowser.min.js"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- Main JS  -->
+        <script src="./js/tilt.jquery.js" type="text/javascript"></script>
+        <script src="./js/main.js" type="text/javascript"></script>
+        <script type="text/javascript" src="./js/language_switch.js"></script>
+        <script type="text/javascript" src="./json/multi-language/lang_LiveStudio.js"></script>
+    </body>
+</html>
