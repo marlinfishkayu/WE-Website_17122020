@@ -97,7 +97,7 @@ var arrLang = {
       
       //index_section3_what's News
       'ReadMore': 'read more',
-      'index_sect3_WhatsNews': "WHAT'S NEWS",
+      'index_sect3_WhatsNew': "WHAT'S NEW",
       'index_sect3_p': 'Quickly catch up on our updated news.',
       'index_sect3_News1_date': '07 JAN 2021',
       'index_sect3_News1_h3': 'The Phil-Asia Gaming Expo (PAGE)',
@@ -211,7 +211,7 @@ var arrLang = {
       
       //index_section3_what's News
       'ReadMore': '了解更多',
-      'index_sect3_WhatsNews': "最新消息",
+      'index_sect3_WhatsNew': "最新消息",
       'index_sect3_p': '搶先收到我們的最新消息。',
       'index_sect3_News1_date': '2021年1月7日',
       'index_sect3_News1_h3': 'PAGE亞博會2021',
@@ -325,7 +325,7 @@ var arrLang = {
       
       //index_section3_what's News
       'ReadMore': '了解更多',
-      'index_sect3_WhatsNews': "最新消息",
+      'index_sect3_WhatsNew': "最新消息",
       'index_sect3_p': '抢先收到我们的最新消息。',
       'index_sect3_News1_date': '2021年1月7日',
       'index_sect3_News1_h3': 'PAGE亚博会2021',
