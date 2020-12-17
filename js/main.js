@@ -505,10 +505,32 @@ $('#studioCarousel').owlCarousel({
 });
 
 /*-- WhatsNews Carousel no-drag start--*/
-document.getElementById('wt').ondragstart = function() { return false; };
+// (function () {
+// 	$(".WhatsNews_Carousel").on('click', function() {
+// 		$(this).removeClass("owl-grab");
+// 	})
+// })();
+
 
 /*-- WhatsNews Carousel no-drag end--*/
-
+ 
+$('#news-area').owlCarousel({
+	loop: false,
+  autoplay:false,
+  nav:true,
+	margin:10,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
 
 /*--  show less button --*/
 
