@@ -69,7 +69,7 @@ var arrLang = {
       
       //Game Content
       'try_now': 'try now',
-      'AllLiveGame': 'Live Game',
+      'AllLiveGame': 'All Live Games',
       'feature': 'FEATURE HIGHLIGHTS',
       'compatible': 'compatible with',
       'leading': 'Leading the way, play new.',
