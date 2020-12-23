@@ -134,7 +134,7 @@
         max-width: 930px;
         position: relative;
         padding: 40px 1.5rem;
-        border-bottom: 0.5px solid #B0936D;
+        //border-bottom: 0.5px solid #B0936D;
         .upper{
             position: relative;
         }
@@ -287,6 +287,7 @@
     }
     #AboutWE .about-main {
         padding-top: 17rem;
+        padding-bottom: 15rem;
     }
     #AboutWE .about-main .about-h2{
         padding-bottom: 3rem;
@@ -440,6 +441,7 @@
     }
     #AboutWE .about-mission {
         padding-top: 13rem;  
+        margin-bottom: 6rem;
     }
     #AboutWE .about-mission .about-h2 {
         padding-left: 0rem;
