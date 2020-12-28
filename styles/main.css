@@ -3225,7 +3225,7 @@ footer {
 }
 
 #liveGame .header-deco {
-  width: 215px;
+  width: 220px;
   margin: 0 auto;
   position: relative;
 }
@@ -7639,7 +7639,7 @@ select.form-control::-ms-expand {
 
 @media (min-width: 768px) {
   .cookie-container p {
-    width: 700px;
+    width: 713px;
   }
 }
 
