@@ -1486,7 +1486,7 @@ button:focus {
     min-width: 260px;
   }
   .nav-game-item {
-    padding: 0px 15px;
+    padding: 0px 11px;
   }
   .game-icon-container h4 {
     font-size: 16px;
@@ -5098,7 +5098,7 @@ select.form-control::-ms-expand {
     z-index: -1;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("/images/news/update-content_x2.png");
+    background-image: url("../images/news/update-content_x2.png");
   }
   #news-carousel .update-img {
     width: 481px;
