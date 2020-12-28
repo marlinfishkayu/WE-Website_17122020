@@ -75,6 +75,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
+      'LiveGames':'LIVE GAMES',
       'gameDetail_p1': 'Blockchain technology lets you play in a secure way. During the game, players only have 20 seconds to place bets in each hand and everyone will be surely thrilled by this fast-paced excitement.',
       'feature_1.1': 'Legible',
       'feature_1.2': 'Scoreboards',
@@ -164,6 +165,7 @@ var arrLang = {
       'leading': '一路領先，搶鮮玩！',
       'try_our_games': '免費試玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '使用區塊鏈技術，確保遊戲安全可靠！每局20秒下注時間，在充滿速度與激情的節奏中，完成整個下注動作，保證讓玩家心跳加速，享受不一樣的快感！',
       'feature_1.1': '完整路紙',
       'feature_1.2': '一目了然',
@@ -253,6 +255,7 @@ var arrLang = {
       'leading': '一路领先，抢鲜玩！',
       'try_our_games': '免费试玩',
       //
+      'LiveGames':'真人游戏',
       'gameDetail_p1': '使用区块链技术，确保游戏安全可靠！每局20秒下注时间，在充满速度与激情的节奏中，完成整个下注动作，保证让玩家心跳加速，享受不一样的快感！',
       'feature_1.1': '完整路單',
       'feature_1.2': '一目了然',

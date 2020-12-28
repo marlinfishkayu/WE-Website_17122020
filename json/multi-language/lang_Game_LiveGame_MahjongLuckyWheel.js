@@ -73,6 +73,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
+      'LiveGames':'LIVE GAMES',
       'gameDetail_p1':'Mahjong Lucky Wheel is a unique game developed by WE.  To differentiate ourselves from most of the gaming platforms in the market,  WE integrated "Mahjong", a Chinese traditional game into our game of lucky wheel.  With the combination of  simple rules and high level of excitement, WE believe players will experience a whole new perspective in their understanding of “Mahjong”.',
       'feature_1.1': 'A whole',
       'feature_1.2': 'new look',
@@ -162,6 +163,7 @@ var arrLang = {
       'leading': '一路領先，搶鮮玩！',
       'try_our_games': '免費試玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '麻將幸運輪是我們全新研發的真人遊戲之一。為了與市面上的幸運輪有著與眾不同的獨特性，我們特別加入中國傳統遊戲的元素 -「麻將」，令其成為更有趣的產品。通過簡單的規則和賠率比例，增加遊戲過程的刺激感。我們相信玩家將會在遊戲中得到全新的視覺體驗。',
       'feature_1.1': '嶄新面貌',
       'feature_1.2': '高額獎賞',
@@ -251,6 +253,7 @@ var arrLang = {
       'leading': '一路领先，抢鲜玩！',
       'try_our_games': '免费试玩',
       //
+      'LiveGames':'真人游戏',
       'gameDetail_p1': '麻将幸运轮是我们全新研发的真人游戏之一。为了与市面上的幸运轮有着与众不同的独特性，我们特别加入中国传统游戏的元素 -「麻将」，令其成为更有趣的产品。通过简单的规则和赔率比例，增加游戏过程的刺激感。我们相信玩家将会在游戏中得到全新的视觉体验。',
       'feature_1.1': '崭新面貌',
       'feature_1.2': '高额奖赏',

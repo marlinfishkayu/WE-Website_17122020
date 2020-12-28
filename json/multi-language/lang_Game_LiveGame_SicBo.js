@@ -73,6 +73,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
+      'LiveGames':'LIVE GAMES',
       'gameDetail_p1': 'Sic Bo is a classic game that originated in ancient China and players have to predict the outcome of the shakes with three dice. It is also known as “big-small”, “hi-lo”, “tai-sai”, “dai-siu”. ',
       'feature_1.1': 'A wide variety ',
       'feature_1.2': 'of odds',
@@ -161,6 +162,7 @@ var arrLang = {
       'leading': '一路領先，搶鮮玩！',
       'try_our_games': '免費試玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '骰寶是一款源於中國的傳統民間遊戲，也叫「賭大小」。玩家需要猜測三顆骰子開出的點數或是點數的總和，玩家的押注內容與三顆骰子開出的點數相同​​，便可贏取獎賞。',
       'feature_1.1': '多元化投注區',
       'feature_1.2': '贏取更高獎賞',
@@ -249,6 +251,7 @@ var arrLang = {
       'leading': '一路领先，抢鲜玩！',
       'try_our_games': '免费试玩',
       //
+      'LiveGames':'真人游戏',
       'gameDetail_p1': '骰宝是一款源於中国的传统民间游戏，也叫「赌大小」。玩家需要猜测三颗骰子开出的点数或是点数的总和，玩家的押注内容与三颗骰子开出的点数相同​​，便可赢取奖赏。',
       'feature_1.1': '多元化投注区',
       'feature_1.2': '赢取更高奖赏',

@@ -74,6 +74,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
+      'LiveGames':'LIVE GAMES',
       'gameDetail_p1': 'Blockchain Dragon Tiger is a popular high-end live game in Asian region. In this table game, winners are determined by the size of cards instead of their suits. King is the largest, while Ace is the smallest.',
       'feature_1.1': 'Simple,',
       'feature_1.2': 'easy to play',
@@ -164,6 +165,7 @@ var arrLang = {
       'leading': '一路領先，搶鮮玩！',
       'try_our_games': '免費試玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '區塊鏈龍虎是亞洲區深受歡迎的高端卡牌遊戲，以透明公正特質，深受玩家喜愛。龍虎不比牌面花色、組合，只比牌面點數；點數較大的一方將獲得勝利。以K為最大牌，A為最小牌。',
       'feature_1.1': '極速遊戲',
       'feature_1.2': '簡單易玩',
@@ -254,6 +256,7 @@ var arrLang = {
       'leading': '一路领先，抢鲜玩！',
       'try_our_games': '免费试玩',
       //
+      'LiveGames':'真人游戏',
       'gameDetail_p1': '区块链龙虎是亚洲区深受欢迎的高端卡牌游戏，以透明公正特质，深受玩家喜爱。龙虎不比牌面花色、组合，只比牌面点数；点数较大的一方将获得胜利。以K为最大牌，A为最小牌。',
       'feature_1.1': '极速游戏',
       'feature_1.2': '简单易玩',

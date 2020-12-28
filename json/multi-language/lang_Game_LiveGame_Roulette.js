@@ -73,6 +73,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
+      'LiveGames':'LIVE GAMES',
       'gameDetail_p1': 'Roulette is well-known for its variations which can cater different tastes from players. Players need to predict the number on which the spinning ball will eventually land in order to win the game.',
       'feature_1.1': 'Multiple',
       'feature_1.2': 'bet-options',
@@ -162,6 +163,7 @@ var arrLang = {
       'leading': '一路領先，搶鮮玩！',
       'try_our_games': '免費試玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '輪盤是娛樂遊戲中以投注方式多樣性而聞名，可以滿足喜愛投注多個號碼的玩家；其玩法簡單，玩家押中珠子落在該格的數字就是勝出，荷官將勝出的賠彩交給玩家。',
       'feature_1.1': '多元投注選項',
       'feature_1.2': '重現歐洲經典',
@@ -252,6 +254,7 @@ var arrLang = {
       'leading': '一路领先，抢鲜玩！',
       'try_our_games': '免费试玩',
       //
+      'LiveGames':'真人游戏',
       'gameDetail_p1': '轮盘是娱乐游戏中以投注方式多样性而闻名，可以满足喜爱投注多个号码的玩家；其玩法简单，玩家押中珠子落在该格的数字就是胜出，荷官将胜出的赔彩交给玩家。',
       'feature_1.1': '多元投注选项',
       'feature_1.2': '重现欧洲经典',

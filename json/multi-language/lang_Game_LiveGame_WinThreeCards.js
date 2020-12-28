@@ -73,6 +73,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
+      'LiveGames':'LIVE GAMES',
       'gameDetail_p1': 'Win Three Cards is a popular card game in China. The principal of the game is to predict the outcome of the bet with the highest ranking on the card types. Both “Dragon” and “Phoenix” sides will receive three cards for each round to determine the winner.',
       'feature_1': 'Broad betting choices',
       'feature_1_p': 'This game has a good variety of odds with various card types. Players could feel free to place the bets to win big! ',
@@ -160,6 +161,7 @@ var arrLang = {
       'leading': '一路領先，搶鮮玩！',
       'try_our_games': '免費試玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '炸金花是中國民間流傳的紙牌遊戲，具有獨特的比牌規則。玩法簡單易懂，結合龍虎鬥的比大小和百家樂的預測牌型。「龍」和「鳳」雙方每輪各獲得三張牌來決定獲勝者。',
       'feature_1': '多款投注選項',
       'feature_1_p': '炸金花設有多個投注選項，每個均設有精彩賠率，玩家可隨時押注心儀牌型，贏取豐富獎賞！',
@@ -247,6 +249,7 @@ var arrLang = {
       'leading': '一路领先，抢鲜玩！',
       'try_our_games': '免费试玩',
       //
+      'LiveGames':'真人游戏',
       'gameDetail_p1': '炸金花是中国民间传统的纸牌游戏，具有独特的比牌规则。玩法简单易懂，结合龙虎斗的比大小和百家乐的预测牌型。「龙」和「凤」双方每轮各获得三张牌来决定获胜者。',
       'feature_1': '多款投注选项',
       'feature_1_p': '炸金花设有多个投注选项，每个均设有精彩赔率，玩家可随时押注心仪牌型，赢取丰富奖赏！',

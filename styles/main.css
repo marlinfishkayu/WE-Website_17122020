@@ -731,7 +731,7 @@ button:focus {
   font-size: 16px;
   color: #979797;
   text-decoration: none;
-  margin: 0px 15px;
+  margin: 0px 14px;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -1486,7 +1486,7 @@ button:focus {
     min-width: 260px;
   }
   .nav-game-item {
-    padding: 0px 18px;
+    padding: 0px 15px;
   }
   .game-icon-container h4 {
     font-size: 16px;

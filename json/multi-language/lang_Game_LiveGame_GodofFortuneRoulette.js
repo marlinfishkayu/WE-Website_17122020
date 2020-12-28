@@ -73,6 +73,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
+      'LiveGames':'LIVE GAMES',
       'gameDetail_p1':'The God of Fortune Roulette is based on the traditional Roulette. However, WE have blended some of the Chinese elements into it and turned it into an unequalled game type which could surely give you a shock. Come and play the game right now to find out more amazement.',
       'feature_1': "Look! It's so fascinating!",
       'feature_1_p': 'WE meticulously designed the God of Fortune series by combining the traditional Chinese character "God of Fortune" and "Hip Hop" elements to create this unique iconic character. It also got a special talent that amazed everyone. Don’t miss out!',
@@ -159,6 +160,7 @@ var arrLang = {
       'leading': '一路領先，搶鮮玩！',
       'try_our_games': '免費試玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '財神輪盤顧名思義是加插了中國元素「財神」於遊戲中，以經典的輪盤為基礎，設計成巧妙絕倫的真人遊戲，帶給玩家無限驚喜。立即免費試玩，體驗不一樣的快感。',
       'feature_1': '財神不傳統',
       'feature_1_p': 'WE 精心設計財神的造型，將中國傳統角色「財神爺」和「嘻哈」元素結合，打造出獨一無二的標誌性角色。財神還有一項專業才能，令現場氣氛歡欣鼓舞、熱情沸騰。千萬不要錯過！',
@@ -245,6 +247,7 @@ var arrLang = {
       'leading': '一路领先，抢鲜玩！',
       'try_our_games': '免费试玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '财神轮盘顾名思义是加入中国元素「财神」于游戏中，以经典的轮盘为基础，设计出巧妙绝伦的真人游戏，带给玩家无限惊喜。立即免费试玩，体验不一样的快感。',
       'feature_1': '财神不传统',
       'feature_1_p': 'WE 精心设计财神的造型，将中国传统角色「财神爷」和「嘻哈」元素结合，打造出独一无二的标志性角色。财神还有一项专业才能，令现场气氛欢欣鼓舞、热情沸腾。千万不要错过！',

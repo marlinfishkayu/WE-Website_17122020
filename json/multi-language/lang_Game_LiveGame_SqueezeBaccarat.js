@@ -73,6 +73,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
+      'LiveGames':'LIVE GAMES',
       'gameDetail_p1': 'Our state-of-the-art technology allow players to squeeze cards "on-site". They can squeeze cards in their preferred ways. WE will surely bring more fun to games which excite our players like being on spot.',
       'feature_1.1': '3D card',
       'feature_1.2': 'squeezing',
@@ -160,6 +161,7 @@ var arrLang = {
       'leading': '一路領先，搶鮮玩！',
       'try_our_games': '免費試玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '通過高端科技，玩家猶如置身現場，從多角度同步咪牌；在公平公正的環境下，即時查看牌面的點數。 新颖有趣的互動效果，讓玩家仿佛置身於現場中，為遊戲增添更多樂趣。',
       'feature_1.1': '3D 揭牌展示',
       'feature_1.2': '仿如置身現場',
@@ -247,6 +249,7 @@ var arrLang = {
       'leading': '一路领先，抢鲜玩！',
       'try_our_games': '免费试玩',
       //
+      'LiveGames':'真人游戏',
       'gameDetail_p1': '通过高端科技，玩家犹如置身现场，从多角度同步咪牌；在公平公正的环境下，即时查看牌面的点数。新颖有趣的互动效果，让玩家仿佛置身于现场中，为游戏增添更多乐趣。',
       'feature_1.1': '3D 揭牌展示',
       'feature_1.2': '仿如置身现场',
