@@ -99,14 +99,8 @@ var arrLang = {
       'ReadMore': 'read more',
       'index_sect3_WhatsNew': "WHAT'S NEW",
       'index_sect3_p': 'Quickly catch up on our updated news.',
-      'index_sect3_News1_date': '07 JAN 2021',
-      'index_sect3_News1_h3': 'The Phil-Asia Gaming Expo (PAGE)',
-      'index_sect3_News2_date': '29-31 JUL 2021',
-      'index_sect3_News2_h3': 'SMX Convention Center (#1100) Manila, Philippines',
-      'index_sect3_News3_date': '01 JAN 2021',
-      'index_sect3_News3_h3': '2021 Welcoming Lottery',
-      'index_sect4_News4_date': '18 Dec 2020',
-      'index_sect3_News4_h3': 'Blockchain games launched!',
+      'index_sect4_News1_date': '18 Dec 2020',
+      'index_sect3_News1_h3': 'Blockchain games launched!',
       
     },
 
@@ -163,7 +157,7 @@ var arrLang = {
       'SpeedBaccarat_slogan': '高速快感 讓人心跳加速',
 
       //Cookie popup
-      'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的 隱私政策 。',
+      'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的隱私政策 。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '©2020 世界娛樂',
@@ -213,14 +207,8 @@ var arrLang = {
       'ReadMore': '了解更多',
       'index_sect3_WhatsNew': "最新消息",
       'index_sect3_p': '搶先收到我們的最新消息。',
-      'index_sect3_News1_date': '2021年1月7日',
-      'index_sect3_News1_h3': 'PAGE亞博會2021',
-      'index_sect3_News2_date': '2021年7月29-31日',
-      'index_sect3_News2_h3': 'SMX Convention Center (#1100) 馬尼拉，菲律賓',
-      'index_sect3_News3_date': '2021年1月1日',
-      'index_sect3_News3_h3': '喜迎2021牛年開運彩票開始啦！',
-      'index_sect4_News4_date': '2020年12月18日',
-      'index_sect3_News4_h3': '鏈接世界，玩得更嗨!',
+      'index_sect4_News1_date': '2020年12月18日',
+      'index_sect3_News1_h3': '鏈接世界，玩得更嗨!',
 
     },
 
@@ -277,7 +265,7 @@ var arrLang = {
       'SpeedBaccarat_slogan': '高速快感 让人心跳加速',
 
       //Cookie popup
-      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的 隐私政策 。',
+      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的隐私政策 。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '©2020 世界娱乐',
@@ -327,14 +315,8 @@ var arrLang = {
       'ReadMore': '了解更多',
       'index_sect3_WhatsNew': "最新消息",
       'index_sect3_p': '抢先收到我们的最新消息。',
-      'index_sect3_News1_date': '2021年1月7日',
-      'index_sect3_News1_h3': 'PAGE亚博会2021',
-      'index_sect3_News2_date': '2021年7月29-31日',
-      'index_sect3_News2_h3': 'SMX Convention Center (#1100) 马尼拉，菲律宾',
-      'index_sect3_News3_date': '2021年1月1日',
-      'index_sect3_News3_h3': '喜迎2021牛年开运彩票开始啦！',
-      'index_sect3_News4_date': '2020年12月18日',
-      'index_sect3_News4_h3': '链接世界，玩得更嗨!',
+      'index_sect3_News1_date': '2020年12月18日',
+      'index_sect3_News1_h3': '链接世界，玩得更嗨!',
     }
   };
 

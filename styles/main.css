@@ -7633,6 +7633,10 @@ select.form-control::-ms-expand {
           transform: scaleX(1);
 }
 
+.pp-link a {
+  color: #b0936d;
+}
+
 @media (min-width: 768px) {
   .cookie-container p {
     width: 700px;
