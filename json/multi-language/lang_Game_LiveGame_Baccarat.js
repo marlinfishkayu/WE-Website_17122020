@@ -73,6 +73,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
+      'LiveGames':'LIVE GAMES',
       'gameDetail_p1': 'Baccarat is a relatively simple game of comparing cards and doesn’t need much time for a beginner to start playing. Apart from the traditional Baccarat, WE offer a huge variety of game types in order to cater every Baccarat lover. ',
       'feature_1.1': 'Legible',
       'feature_1.2': 'Scoreboards',
@@ -168,6 +169,7 @@ var arrLang = {
       'leading': '一路領先，搶鮮玩！',
       'try_our_games': '免費試玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '百家樂是一種簡單的卡牌遊戲，初學者不需要花太多時間學習。除了傳統百家樂外，我們更提供多款百家樂遊戲類型，以迎合每個百家樂愛好者。',
       'feature_1.1': '完整路紙',
       'feature_1.2': '一目了然',
@@ -263,6 +265,7 @@ var arrLang = {
       'leading': '一路领先，抢鲜玩！',
       'try_our_games': '免费试玩',
       //
+      'LiveGames':'真人游戏',
       'gameDetail_p1': '百家乐是一种简单的卡牌游戏，初学者不需要花太多时间学习。除了传统百家乐外，我们更提供多款百家乐游戏类型，以迎合每个百家乐爱好者。',
       'feature_1.1': '完整路單',
       'feature_1.2': '一目了然',
