@@ -75,6 +75,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
+      'LiveGames':'LIVE GAMES',
       'gameDetail_p1': 'Blockchain technology lets you play in a secure way. During the game, players only have 20 seconds to place bets in each hand and everyone will be surely thrilled by this fast-paced excitement.',
       'feature_1.1': 'Legible',
       'feature_1.2': 'Scoreboards',
@@ -141,7 +142,7 @@ var arrLang = {
       'Blockchain_slogan': '鏈接世界，玩得更嗨',
   
       //Cookie popup
-      'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的 隱私政策 。',
+      'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的隱私政策 。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '©2020 世界娛樂',
@@ -164,6 +165,7 @@ var arrLang = {
       'leading': '一路領先，搶鮮玩！',
       'try_our_games': '免費試玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '使用區塊鏈技術，確保遊戲安全可靠！每局20秒下注時間，在充滿速度與激情的節奏中，完成整個下注動作，保證讓玩家心跳加速，享受不一樣的快感！',
       'feature_1.1': '完整路紙',
       'feature_1.2': '一目了然',
@@ -230,7 +232,7 @@ var arrLang = {
       'Blockchain_slogan': '链接世界，玩得更嗨',
   
       //Cookie popup
-      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的 隐私政策 。',
+      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的隐私政策 。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '©2020 世界娱乐',
@@ -253,6 +255,7 @@ var arrLang = {
       'leading': '一路领先，抢鲜玩！',
       'try_our_games': '免费试玩',
       //
+      'LiveGames':'真人游戏',
       'gameDetail_p1': '使用区块链技术，确保游戏安全可靠！每局20秒下注时间，在充满速度与激情的节奏中，完成整个下注动作，保证让玩家心跳加速，享受不一样的快感！',
       'feature_1.1': '完整路單',
       'feature_1.2': '一目了然',

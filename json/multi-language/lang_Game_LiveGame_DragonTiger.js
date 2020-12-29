@@ -73,6 +73,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
+      'LiveGames':'LIVE GAMES',
       'gameDetail_p1': 'Dragon Tiger is a popular live game in Asian region. It is super-fast, simple, and easy to play. In this table game, winners are determined by the size of cards instead of their suits. King is the largest, while Ace is the smallest.',
       'feature_1.1': 'Simple,',
       'feature_1.2': 'easy to play',
@@ -139,7 +140,7 @@ var arrLang = {
       'SpeedBaccarat_slogan': '高速快感 讓人心跳加速',
   
       //Cookie popup
-      'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的 隱私政策 。',
+      'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的隱私政策 。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '©2020 世界娛樂',
@@ -162,6 +163,7 @@ var arrLang = {
       'leading': '一路領先，搶鮮玩！',
       'try_our_games': '免費試玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '龍虎是是亞洲區深受歡迎的卡牌遊戲，以快速、淺顯易懂特質，深受玩家喜愛。龍虎不比牌面花色、組合，只比牌面點數；點數較大的一方將獲得勝利。以K為最大牌，A為最小牌。',
       'feature_1.1': '極速遊戲',
       'feature_1.2': '簡單易玩',
@@ -228,7 +230,7 @@ var arrLang = {
       'SpeedBaccarat_slogan': '高速快感 让人心跳加速',
   
       //Cookie popup
-      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的 隐私政策 。',
+      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的隐私政策 。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '©2020 世界娱乐',
@@ -251,6 +253,7 @@ var arrLang = {
       'leading': '一路领先，抢鲜玩！',
       'try_our_games': '免费试玩',
       //
+      'LiveGames':'真人游戏',
       'gameDetail_p1': '龙虎是是亚洲区深受欢迎的卡牌游戏，以快速、浅显易懂特质，深受玩家喜爱。龙虎不比牌面花色、组合，只比牌面点数；点数较大的一方将获得胜利。以K为最大牌，A为最小牌。',
       'feature_1.1': '极速游戏',
       'feature_1.2': '简单易玩',

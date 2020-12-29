@@ -68,6 +68,7 @@ var arrLang = {
       'input_email':'Please enter your email address here',
       
       //Game Content
+      'LiveGames':'LIVE GAMES',
       'try_now': 'try now',
       'AllLiveGame': 'All Live Games',
       'feature': 'FEATURE HIGHLIGHTS',
@@ -141,7 +142,7 @@ var arrLang = {
       'Blockchain_slogan': '鏈接世界，玩得更嗨',
   
       //Cookie popup
-      'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的 隱私政策 。',
+      'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的隱私政策 。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '©2020 世界娛樂',
@@ -164,6 +165,7 @@ var arrLang = {
       'leading': '一路領先，搶鮮玩！',
       'try_our_games': '免費試玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '區塊鏈百家樂是一種公平公正的卡牌遊戲，玩法簡單。除了傳統百家樂外，我們更提供多款百家樂遊戲類型，以迎合每個百家樂愛好者。',
       'feature_1.1': '完整路紙',
       'feature_1.2': '一目了然',
@@ -230,7 +232,7 @@ var arrLang = {
       'Blockchain_slogan': '链接世界，玩得更嗨',
   
       //Cookie popup
-      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的 隐私政策 。',
+      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的隐私政策 。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '©2020 世界娱乐',
@@ -246,6 +248,7 @@ var arrLang = {
       'input_email':'请在此处输入你的电子邮件地址',
     
       //Game Content
+      
       'try_now': '立即试玩',
       'AllLiveGame': '真人游戏',
       'feature': '功能亮点',
@@ -253,6 +256,7 @@ var arrLang = {
       'leading': '一路领先，抢鲜玩！',
       'try_our_games': '免费试玩',
       //
+      'LiveGames':'真人游戏',
       'gameDetail_p1': '区块链百家乐是一种公平公正的卡牌游戏，玩法简单。除了传统百家乐外，我们更提供多款百家乐游戏类型，以迎合每个百家乐爱好者。',
       'feature_1.1': '完整路單',
       'feature_1.2': '一目了然',

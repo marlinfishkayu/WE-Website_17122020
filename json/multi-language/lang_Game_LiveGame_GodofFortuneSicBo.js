@@ -73,6 +73,7 @@ var arrLang = {
       'leading': 'Leading the way, play new.',
       'try_our_games': 'Try Our Games',
       //
+      'LiveGames':'LIVE GAMES',
       'gameDetail_p1':'The God of Fortune Sic Bo is an integration of classic Sic Bo. However, it infuses "The God of Fortune", a Chinese element into the game. The gameplay is similar to the classic Sic Bo but there will be more excitement and interaction during the gaming process. ',
       'feature_1': 'Lucky draw',
       'feature_1_p': 'The God of Fortune will randomly draw 1-3 “Lucky Number(s)” of each round. In terms of basic odds, players have the opportunity to get as much as 50x to even 1000x random odds. ',
@@ -136,7 +137,7 @@ var arrLang = {
       'SpeedBaccarat_slogan': '高速快感 讓人心跳加速',
   
       //Cookie popup
-      'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的 隱私政策 。',
+      'Cookie_p1' : '本網站使用COOKIES以確保你在我們網站上獲得最佳的使用體驗。如果你繼續使用本網站，這將被認為你已同意本網站的隱私政策 。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '©2020 世界娛樂',
@@ -159,6 +160,7 @@ var arrLang = {
       'leading': '一路領先，搶鮮玩！',
       'try_our_games': '免費試玩',
       //
+      'LiveGames':'真人遊戲',
       'gameDetail_p1': '財神骰寶是骰寶的進化版本，它將中國「財神」這個人見人愛的角色加插在遊戲中。遊戲玩法和骰寶相近，不同之處在於財神骰寶會有抽取幸運號碼環節，在遊戲過程中將會令玩家激發更多的快樂荷爾蒙。',
       'feature_1': '超賞幸運號碼',
       'feature_1_p': '財神骰寶特設隨機幸運倍數，在基礎賠率上，讓玩家有機會再獲多達50以至1,000倍的賞金，成為超級贏家！',
@@ -222,7 +224,7 @@ var arrLang = {
       'SpeedBaccarat_slogan': '高速快感 让人心跳加速',
   
       //Cookie popup
-      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的 隐私政策 。',
+      'Cookie_p1' : '本网站使用COOKIES以确保你在我们网站上获得最佳的使用体验。如果你继续使用本网站，这将被认为你已同意本网站的隐私政策 。',
       'Accept' : '同意',
       //Footer
       'WorldEnt' : '©2020 世界娱乐',
@@ -245,6 +247,7 @@ var arrLang = {
       'leading': '一路领先，抢鲜玩！',
       'try_our_games': '免费试玩',
       //
+      'LiveGames':'真人游戏',
       'gameDetail_p1': '财神骰宝是骰宝的进化版本，它将中国「财神」这个人见人爱的角色添加于游戏中。游戏玩法與骰宝相近，不同之处在于财神骰宝设有抽取幸运号码环节，在游戏过程中令玩家激发更多的快乐荷尔蒙。',
       'feature_1': '超赏幸运号码',
       'feature_1_p': '财神骰宝特设随机幸运倍数，在基础赔率上，让玩家有机会再获多达50以至1,000倍的赏金，成为超级赢家！',
