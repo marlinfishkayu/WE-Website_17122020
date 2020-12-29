@@ -7359,10 +7359,6 @@ select.form-control::-ms-expand {
   #NewsDetail .Event-Detail-main {
     margin-top: 1rem;
   }
-  #NewsDetail .detail-content-wrap {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
   #NewsDetail .event-slider-bkg {
     margin: 0 auto;
     width: 100%;
