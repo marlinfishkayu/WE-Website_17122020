@@ -11,7 +11,7 @@ var arrLang = {
       'nav_Search': 'Search our website',
       
       //navbar-submenu
-      'submenu_LiveGames': 'Live Game',
+      'submenu_LiveGames': 'Live Games',
       'submenu_Lottery': 'Lottery',
       'submenu_Sportsbook': 'Sportsbook',
       'submenu_Slots': 'Slots',
@@ -83,7 +83,7 @@ var arrLang = {
       'index_sect2_HotPicks': 'HOT PICKS',
       'index_sect2_h2': 'The most popular games online.',
       'index_sect2_p': 'Time is precious, so WE pick and choose our brand new selection for you.',
-      'index_sect2_LiveGame': 'LIVE GAME',
+      'index_sect2_LiveGame': 'LIVE GAMES ',
       
       //index_section2 Live Game Carousel
       'index_sect2_col_1_p': 'WE play beyond classic.',
