@@ -5401,6 +5401,10 @@ select.form-control::-ms-expand {
   height: 380px;
 }
 
+#liveStudio .hero-header .hero-intro1, .hero-header .hero-intro2 {
+  padding-bottom: 1.5rem;
+}
+
 #liveStudio .showless_btn,
 #liveStudio .livestudio-sec1,
 #liveStudio .livestudio-sec3 {
@@ -5408,7 +5412,7 @@ select.form-control::-ms-expand {
 }
 
 #liveStudio .livestudio-sec1 {
-  padding-top: 0px;
+  padding-top: 2rem;
   padding-bottom: 150px;
 }
 
@@ -5523,7 +5527,7 @@ select.form-control::-ms-expand {
 }
 
 .studio-card .studio-slide-text {
-  max-width: 230px;
+  max-width: 219px;
   overflow: hidden;
   padding: 2rem;
   height: 550px;
@@ -5589,8 +5593,8 @@ select.form-control::-ms-expand {
   position: relative;
   display: inline-block;
   overflow: hidden;
-  height: 550px;
-  width: 295px;
+  height: 575px;
+  width: 312px;
   cursor: pointer;
   position: relative;
   margin: 0 auto;
@@ -5984,9 +5988,6 @@ select.form-control::-ms-expand {
     width: 295px;
     height: 559px;
   }
-  .studio-card .studio-slide-text {
-    max-width: inherit;
-  }
   #liveStudio .room-num {
     font-size: 18px;
   }
@@ -6013,6 +6014,14 @@ select.form-control::-ms-expand {
   }
   #liveStudio .livestudio-hightlight-wrap #liceCert {
     width: 300px;
+  }
+  .studio-card .studio-slide-text {
+    max-width: 230px;
+    max-width: inherit;
+  }
+  .studio-card {
+    height: 550px;
+    width: 295px;
   }
 }
 

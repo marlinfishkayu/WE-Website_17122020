@@ -1,13 +1,16 @@
 #liveStudio .hero-header-bkg{
     height: 380px;
 }
+#liveStudio  .hero-header .hero-intro1, .hero-header .hero-intro2 {
+    padding-bottom: 1.5rem;
+}
 #liveStudio .showless_btn,
 #liveStudio .livestudio-sec1,
 #liveStudio .livestudio-sec3{
     position: relative;
 }
 #liveStudio .livestudio-sec1{
-    padding-top: 0px;
+    padding-top: 2rem;
     padding-bottom: 150px;
 }
 #liveStudio .showless_btn .active{
@@ -99,7 +102,7 @@
     background: linear-gradient(180deg, rgba(6,11,26,0.6) 0%, rgba(6,11,26,1) 92%, rgba(9,17,41,1) 100%);    
 }
 .studio-card .studio-slide-text{
-    max-width: 230px;
+    max-width: 219px;
     overflow: hidden;
     padding: 2rem;
     height: 550px;
@@ -156,8 +159,8 @@
     position: relative;
     display: inline-block;
     overflow: hidden;
-    height: 550px;
-    width: 295px;
+    height: 575px;
+    width: 312px;
     cursor: pointer;
     position: relative;
     margin: 0 auto;
@@ -490,9 +493,6 @@
         width: 295px;
         height: 559px;
     }
-    .studio-card .studio-slide-text{
-        max-width: inherit;
-    }
     #liveStudio {
         .room-num{
             font-size: 18px;
@@ -521,6 +521,14 @@
     }
     #liveStudio .livestudio-hightlight-wrap #liceCert {
         width: 300px;
+    }
+    .studio-card .studio-slide-text{
+        max-width: 230px;
+        max-width: inherit;
+    }
+    .studio-card {
+        height: 550px;
+        width: 295px;
     }
 }   
 
