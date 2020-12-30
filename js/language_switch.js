@@ -13,7 +13,6 @@
       
 
     });
-    document.getElementById('message').value = "";
   });
   
   function translateLang(lang)
