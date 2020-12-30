@@ -11,7 +11,7 @@ var arrLang = {
     'nav_Search': 'Search our website',
     
     //navbar-submenu
-    'submenu_LiveGames': 'Live Game',
+    'submenu_LiveGames': 'Live Games',
     'submenu_Lottery': 'Lottery',
     'submenu_Sportsbook': 'Sportsbook',
     'submenu_Slots': 'Slots',

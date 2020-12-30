@@ -11,7 +11,7 @@ var arrLang = {
     'nav_Search': 'Search our website',
     
     //navbar-submenu
-    'submenu_LiveGames': 'Live Game',
+    'submenu_LiveGames': 'Live Games',
     'submenu_Lottery': 'Lottery',
     'submenu_Sportsbook': 'Sportsbook',
     'submenu_Slots': 'Slots',
@@ -78,7 +78,7 @@ var arrLang = {
     'Career' : 'Career',
     'Other' : 'Other',
     //textarea
-    'message' : 'message',
+    'message' : 'Your message here',
     //check form
     'statement_agree' : 'Yes, I agree to the Privacy Policy*.',
     'statement_promotional' : 'I agree to receive marketing promotional materials and news from you via email.',

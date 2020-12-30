@@ -7,15 +7,15 @@
         $(this).text(arrLang[lang][$(this).attr('key')]);
 
         //Change placeholder
-        $(this).prop("placeholder",arrLang[lang][$(this).attr('key')]);
+        $(this).prop('placeholder',arrLang[lang][$(this).attr('key')]);
+        
       });
       
 
     });
-    
+    document.getElementById('message').value = "";
   });
   
-
   function translateLang(lang)
   {
       $('.lang').each(function(index, item) {
@@ -24,8 +24,8 @@
         //Change text
         item.text(arrLang[lang][item.attr('key')]);
         //Change placeholder
-        item.prop("placeholder",arrLang[lang][item.attr('key')]);
-
+        item.prop('placeholder',arrLang[lang][item.attr('key')]);
+        
         
         });
       // swicth language for css，re-define language

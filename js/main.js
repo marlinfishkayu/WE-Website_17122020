@@ -592,5 +592,46 @@ setTimeout(function() {
 
 
 
+/*-- What's New Timeline add odd/even class start --*/
+(function () {
+	$('.timeline li:nth-child(even)').addClass('right-frame');
+  $('.timeline li:nth-child(odd)').addClass('left-frame');
+})();
+/*-- What's New Timeline add odd/even class end --*/
 
 
+
+/*-- What's New Timeline filter function start --*/
+$(document).ready(function(){
+
+  $(".filter-item").click(function() {
+      const value = $(this).attr('data-filter');
+
+      if(value == "all")
+      {
+        $(".filter").show('1000');
+      }
+      else
+      {
+        $(".filter").not('.'+value).hide('3000');
+        $(".filter").filter('.'+value).show('3000');
+      }
+  });
+    // if($(".filter-item").removeClass("active")){
+    //     $(this).removeClass("active");
+    //   }
+    //   $(this).addClass("active");
+
+
+      $('.filter-item').click(function(){
+          $('.filter-item a').removeClass("active");
+          $(this).children("a").addClass("active");
+      });
+      
+});
+/*-- What's New Timeline filter function end --*/
+
+
+
+
+  
