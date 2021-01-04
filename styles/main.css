@@ -8360,14 +8360,14 @@ body:lang(SC) #diamondCarousel h3 {
 @media (min-width: 992px) {
   body:lang(TC) .subnav-arrow,
   body:lang(SC) .subnav-arrow {
-    left: 113px;
+    left: 150px;
   }
 }
 
 @media (min-width: 1200px) {
   body:lang(TC) .subnav-arrow,
   body:lang(SC) .subnav-arrow {
-    left: 154px;
+    left: 204px;
   }
 }
 
