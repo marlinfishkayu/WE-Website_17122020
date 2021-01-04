@@ -1448,7 +1448,7 @@ button:focus {
     position: absolute;
     -webkit-transform: rotate(225deg);
             transform: rotate(225deg);
-    left: 130px;
+    left: 183px;
     top: 27px;
     z-index: 5;
   }
@@ -1482,7 +1482,7 @@ button:focus {
     width: 900px;
   }
   .subnav-arrow {
-    left: 169px;
+    left: 232px;
   }
   .game-icon-wrap {
     min-width: 260px;
