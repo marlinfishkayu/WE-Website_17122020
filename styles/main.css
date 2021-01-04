@@ -606,7 +606,6 @@ button:focus {
   left: 50%;
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
-  width: 100%;
   margin-top: 27px;
   padding: 3.3rem 0;
   font-family: Futura Medium,Trebuchet MS,Arial,sans-serif;
@@ -617,6 +616,8 @@ button:focus {
   text-decoration: none;
   padding-bottom: 5px;
   pointer-events: none;
+  margin: 0;
+  width: 120%;
 }
 
 .nav-wrap li.dropdown .game-menu::after {
